@@ -54,8 +54,10 @@ detalla ese uso. Constructor y verificadores proceden del mismo agente. El equip
 confirmó el 22/10 que aún no había revisado la prueba; no se recibió confirmación
 posterior. La comprensión y el ensayo siguen pendientes.
 
-Este repositorio está preparado localmente, sin remoto ni publicación. El usuario
-confirmó el 23/10 que el repositorio de entrega todavía no estaba creado. La
-autorización existente para conservar los mensajes cubre el paquete local y su
-posible sincronización con Drive. Subirlos a GitHub requiere confirmación aparte.
-No se declara inscripción, envío, revisión del jurado ni haber ganado.
+Repositorio privado creado y copia subida el 23/10/2026:
+[nehuenigds/investigathon-2026-kuramotardos](https://github.com/nehuenigds/investigathon-2026-kuramotardos).
+El usuario autorizó expresamente este destino privado y la transferencia de los
+materiales preparados, incluidos los mensajes visibles seleccionados. El corte de
+las transcripciones y sus exclusiones permanecen sin cambios. No se invitó a otras
+personas ni se hizo público el contenido. La subida del repositorio no acredita
+inscripción, envío al jurado, revisión matemática, ensayo ni haber ganado.

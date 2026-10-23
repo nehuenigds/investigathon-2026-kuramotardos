@@ -5,15 +5,15 @@
     "adenda-historial-visible-20261023-v1.zip": "7f2249c9dc442115de5650504c0e198ba8dfb4734ff3b21a7c4135b398af6a27"
   },
   "unique_visible_messages": 237,
-  "remote_configured": false,
+  "remote_configured": true,
   "files": {
     ".gitignore": {
       "bytes": 82,
       "sha256": "d0b9a10259d91739ddb92583fe46de66d0b43bddc13f6a0c5870f35f187d581c"
     },
     "README.md": {
-      "bytes": 3475,
-      "sha256": "3e31011574d3da73a39a79073fc09430c84d2ac1fb2c09b0795c54a96f114e0e"
+      "bytes": 3647,
+      "sha256": "7a28a2f8c9dd41759f921da19958f0da77af7e9fc886a199a2e0f1e53dd156e8"
     },
     "materiales/Bitácora.md": {
       "bytes": 144686,
@@ -563,5 +563,8 @@
       "bytes": 1765,
       "sha256": "dbfdd5796ea6ef92af093ef9d966a9f66c86002c2816610fdd551c0c500cb679"
     }
-  }
+  },
+  "github_repository": "https://github.com/nehuenigds/investigathon-2026-kuramotardos",
+  "github_visibility": "private",
+  "github_transfer_authorized": true
 }
