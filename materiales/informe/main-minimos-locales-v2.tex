@@ -1,0 +1,186 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath,amssymb,amsthm,booktabs}
+\usepackage[margin=2.1cm]{geometry}
+\usepackage{xcolor,hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue!45!black,urlcolor=blue!45!black,citecolor=blue!45!black}
+\newtheorem{proposicion}{Proposición}
+\newtheorem{teorema}{Teorema}
+\newtheorem{lema}{Lema}
+\newcommand{\muo}{\mu_0}
+\setlength{\parskip}{0.3em}
+\setlength{\parindent}{0pt}
+\title{\vspace{-1.2cm}Kuramoto: una cota asintótica\\Siete clusters próximos a cuatro fases}
+\author{Los Kuramotardos\\
+\small Investigathon 2026 -- Optimización\\
+\small Versión ampliada para revisión; asistida por IA}
+\date{22 de octubre de 2026}
+\begin{document}
+\maketitle
+\vspace{-0.7cm}
+\begin{abstract}
+Probamos conectividad límite menor que $0.6934$ para sucesiones de mínimos locales de siete clusters de Kuramoto cuyas masas tienen límites positivos y cuyas fases convergen a cuatro cuartos de vuelta, con reparto $(2,2,2,1)$. Se permiten mínimos degenerados, asimetrías, internos incompletos y distintas escalas de separación. La prueba combina una reducción analítica con una cobertura racional completa. El intervalo respecto de la construcción conocida de O'Keeffe tiene ancho menor que $0.000493$ para esta clase; no determina el umbral general. Como complemento, una separación finita entre patrones permite mejorar conectividad a geometría fija mediante un único par opuesto y se traslada existencialmente a grafos simples. Faltan revisión humana y comprobación de novedad.
+\end{abstract}
+
+\section{Modelo, pregunta y alcance}
+En un grafo simple no dirigido consideramos osciladores idénticos, en un marco que elimina su frecuencia común:
+\[
+ \dot\theta_i=\sum_j A_{ij}\sin(\theta_j-\theta_i),\qquad
+ E(\theta)=\sum_{\{i,j\}\in E(G)}[1-\cos(\theta_i-\theta_j)].
+\]
+El flujo es $-\nabla E$. En un equilibrio, el Hessiano es el Laplaciano con pesos $A_{ij}\cos(\theta_i-\theta_j)$. La rotación global da un modo nulo. La positividad estricta en $\mathbf1^\perp$ certifica un mínimo estricto módulo rotación; ceros adicionales no deciden estabilidad \cite{bullo}.
+
+La propuesta usa $(\delta+1)/n$ y otras referencias $\delta/(n-1)$. Para $n$ finito,
+\[
+ \frac{\delta+1}{n}=\frac{n-1}{n}\frac{\delta}{n-1}+\frac1n.
+\]
+El análisis siguiente pasa explícitamente a \emph{plantillas ponderadas}: masas $x_i>0$, $\sum_i x_i=1$, densidades simétricas $P_{ij}\in[0,1]$ y puntos del círculo $z_i=(c_i,s_i)$. Escribimos
+\[
+ C_{ij}=c_ic_j+s_is_j,\quad S_{ij}=s_ic_j-c_is_j,\quad
+ F_i=\sum_jx_jP_{ij}S_{ij},\quad \gamma_i=\sum_jx_jP_{ij}C_{ij}.
+\]
+La energía de plantilla y su Hessiano de clusters son
+\[
+\begin{aligned}
+ E_T(\theta)&=\sum_{i<j}x_ix_jP_{ij}[1-\cos(\theta_i-\theta_j)],\\
+ H&=\sum_{i<j}x_ix_jP_{ij}C_{ij}(e_i-e_j)(e_i-e_j)^T.
+\end{aligned}
+\]
+Se tiene $\partial_iE_T=x_iF_i$. Un mínimo local da $F=0$ y $H\succeq0$; la recíproca es falsa. Para el complemento finito llamamos estricta a una plantilla con $F=0$, $\gamma_i>0$ y $H|_{\mathbf1^\perp}\succ0$. Su conectividad es $\mu=\min_i(Px)_i$. El lema de realización de \cite{okeeffe} es un paso adicional para obtener grafos simples; aquí no se enumeran aristas.
+
+O'Keeffe \cite{okeeffe} obtiene $\muo=0.692907706369586\ldots$ mediante tres hojas desdobladas y una entera. Acotamos una clase asintótica más amplia, permitiendo masas y patrones asimétricos, sin tasas de convergencia ni derivadas. Como complemento, comparamos patrones a geometría finita fija.
+
+\clearpage
+\section{Una cota para siete clusters próximos a cuatro fases}
+\begin{teorema}[Clase asintótica $(2,2,2,1)$]
+Sean plantillas homogéneas de siete clusters, con densidades simétricas en $[0,1]$, y en cada elemento finito un \textbf{mínimo local real de $E_T$}, posiblemente degenerado. Suponer, tras rotación, que
+\[
+ x_i^\ell\longrightarrow\bar x_i>0,\qquad
+ \theta_i^\ell\longrightarrow j_i\pi/2,\qquad j=(0,0,1,1,2,2,3).
+\]
+Entonces
+\[
+ \boxed{\limsup_\ell\mu(T_\ell)<\frac{3467}{5000}=0.6934.}
+\]
+Se permiten mitades desiguales, internos incompletos, densidades límite cero y separaciones de distintas escalas. No se cubren masas límite nulas, otros repartos ni otras geometrías. No es una cota para la conectividad crítica general.
+\end{teorema}
+
+La construcción estricta de \cite{okeeffe} pertenece también a esta clase y sitúa el supremo de valores límite en $[\muo,0.6934]$, de ancho menor que $0.000493$. No se demuestra que sea $\muo$. Equilibrio y semidefinitud solos no reemplazan la hipótesis de mínimo local.
+
+\begin{lema}[Cuatro fases exactas; adaptación de \cite{lz}, Lema 11]
+En una plantilla con cuatro hojas no vacías exactamente en los cuartos de vuelta, un mínimo local no tiene enlaces entre hojas distintas. Por tanto $\mu\leq1/4$.
+\end{lema}
+\begin{proof}
+Agregar conductancias $a_{ij}=x_ix_jP_{ij}$ por hojas. Las pruebas del Hessiano con $(1,0,-1,0)$ y $(1,2,1,0)$ vacían ambos pares opuestos. El equilibrio iguala los cuatro flujos adyacentes a un mismo $T\geq0$. Rotar A por $-t$ y B por $t$, dejando C y W fijas, da exactamente
+\[
+ \Delta E=T[\sin(2t)-2\sin t]=-2T\sin t(1-\cos t).
+\]
+Si $T>0$, hay descenso para todo $0<t<\pi$, contradiciendo minimalidad local. Así $T=0$; las conductancias no negativas entre hojas son nulas y cada grado es a lo sumo la masa de su hoja. La menor de las cuatro masas no supera $1/4$.
+\end{proof}
+
+\textbf{Reducción analítica.} Suponer por contradicción un límite de grados al menos $u=3467/5000$. En la subsucesión que lo realiza, los grados son eventualmente mayores que $1/4$; el lema excluye separación exactamente cero. Fijar W y normalizar por la máxima separación angular $h>0$ respecto de los cuartos de vuelta. Tomar una subsucesión convergente de los offsets reescalados. La identidad exacta obtenida al multiplicar los residuos de equilibrio por esos offsets da una suma de pesos adyacentes del Hessiano de orden $O(h^2)$. Las dos rotaciones del lema fuerzan todos los opuestos a $O(h^2)$. La traza del Hessiano sobre indicadores de hojas controla por separado sus cuatro cortes principales. Estos pasos usan equilibrio y semidefinitud, sin exigir Hessiano estricto.
+
+Completar internos se usa solamente como relajación: aumenta grados y debilita las pruebas necesarias de estabilidad, sin afirmar que preserve un equilibrio finito. Bajo una hipotética conectividad límite al menos $u>2/3$, los casos de flujo cero se excluyen por grado antes de usar centros ponderados. El flujo común se normaliza a uno. Con masas brutas $m$ de suma $N$, poner $(J_A,J_B,J_C)=(m_0m_1,m_2m_3,m_4m_5)$. Las fracciones de flujo son $\pi_i,1-\pi_i$ y las diferencias de offsets $k_i$. Escribir
+\[
+ a=\frac{\pi_A(1-\pi_A)}{J_A},\quad
+ b=\frac{\pi_B(1-\pi_B)}{J_B},\quad
+ c=\frac{\pi_C(1-\pi_C)}{J_C},\qquad z_i=\sqrt{J_i}k_i.
+\]
+Las cancelaciones de cortes igualan los centros por flujo con W, cuyo offset es cero. Así $\|k\|_\infty\geq1$ y $\|z\|^2\geq\min_iJ_i>0$, aun si una o dos separaciones principales son cero. Se invierte $J\succ0$ del modelo completado; el bloque interno original puede ser singular. Para los determinantes normalizados $\kappa,\lambda$ de los transportes A--B y B--C, dos pruebas variacionales necesarias son
+\[
+\begin{aligned}
+ \|z\|^2&\geq\kappa^2z_B^2+(2bz_B-\kappa z_A-\lambda z_C)^2+\lambda^2z_B^2,\\
+ \|z\|^2&\geq(2az_A-\kappa z_B)^2+(\kappa z_A-\lambda z_C)^2+(2cz_C-\lambda z_B)^2.
+\end{aligned}\tag{2}
+\]
+Las capacidades dan $|\kappa|+\sqrt{ab}\leq1$, $|\kappa|\leq\sqrt{ab}$ y sus análogas para $\lambda,b,c$. Los grados imponen $\chi=(a,b,c)\in[\eta,\eta^{-1}]^3$, con $\eta=(2u-1)/(2(1-u))$.
+
+\textbf{Conservar masas y escala.} Sean $y_A,y_B,y_C,y_W$ las masas relativas de hojas. Para una hoja dividida, $\tau_i=f_i/m_i$, $f_0+f_1=1$ y una vecina de masa bruta $B$ satisfacen $\tau_i\leq B$. La identidad
+\[
+ B-\tau_0\tau_1(m_0+m_1)
+ =m_0\tau_0(B-\tau_1)+m_1\tau_1(B-\tau_0)\geq0
+\]
+da $ay_A\leq y_B,y_W$, $by_B\leq y_A,y_C$ y $cy_C\leq y_B,y_W$. Se propagan cotas inferiores $L_i\leq y_i$ a partir de $y_i\geq u/(1+2\chi_i)$ y $y_A,y_C,y_W\geq u-1/2$. Para $D=\max L_i(u-L_i)$, los promedios de grado dan $N^2\leq2/D$. Cada corte de flujo uno da $N^2\geq4/R_{pq}^2$, donde $R_{pq}=1-L_r-L_s$ usa las otras dos hojas. Así $R_{pq}^2\geq2D$ es necesario; no se identifica grado mínimo con promedio.
+
+\textbf{Certificado del continuo.} Con $u=3467/5000$, un árbol racional cubre $[967/1533,1533/967]^3$ mediante 15.511 nodos y 7.756 hojas. De estas, 3.742 contradicen masas o capacidades; 2.362 prueban positividad por comparación con un vector racional; 1.652 prueban los menores de Sylvester por Bernstein racional. En las hojas matriciales, una combinación convexa de (2), menos la identidad, es definida positiva para todas las covarianzas admitidas, contradiciendo $z\ne0$. Se incluyen bordes y todos los signos. Los números flotantes solo proponen parámetros; el verificador separado reconstruye cada caja y comprueba todas las desigualdades con fracciones y raíces enteras. La prueba y fórmulas completas están en \path{cota_flujos_06934.md} y sus notas de reducción.
+
+\textbf{Corolario para grafos.} Sean grafos de orden creciente y mínimos locales de su energía constantes en siete grupos, con proporciones límite positivas y fases indicadas. Agregar por promedios, con $P_{ii}=2e(V_i)/n_i^2$, da $E_T(\varphi)=E_G(U\varphi)/n^2$, donde $U$ repite fases por grupo. Restringir un mínimo local conserva minimalidad. Además $d_i=\bar\delta_i/n$ y $\delta/n\leq\mu(T)$, luego $\limsup\delta/n<0.6934$. Las otras normalizaciones comparten la cota solo al crecer $n$. No se exigen bloques regulares ni Hessiano completo estricto.
+
+La prueba anterior para un perfil principal específico de S7, conservada en \path{patron_principal_limite.md}, da la cota más fuerte $\mu_\infty\leq\muo$ bajo hipótesis adicionales de masas, anchuras y patrón límite. No se extiende esa conclusión a la clase más amplia del teorema.
+
+\section{Complemento: separación finita entre patrones}
+El resultado principal no decide qué enlaces conviene permitir a separación finita. Para una comparación exacta, fijar A $=\{0,1\}$, B $=\{2,3\}$, C $=\{4,5\}$, W $=\{6\}$ y
+\[
+ x=\frac{(20,20,20,20,20,20,33)}{153},\qquad
+ z=((C,-S),(C,S),(S_B,C_B),(-S_B,C_B),(-C,S),(-C,-S),(0,-1)),
+\]
+\[
+ C=\frac{159999}{160001},\quad S=\frac{800}{160001},\quad
+ C_B=\frac{3999951}{4000049},\quad S_B=\frac{28000}{4000049}.
+\]
+Son puntos exactos del círculo, con anchuras $2\arctan(h/2)$ y $2\arctan(wh/2)$ para $h=1/200,w=7/5$; no se reemplazan por su aproximación lineal.
+
+\begin{proposicion}
+A estas mismas masas y fases, todo equilibrio con $H\succeq0$, internos completos, opuestos vacíos y las doce densidades adyacentes libres en $[0,1]$ tiene $\mu\leq U<0.68877337417$. Existe un testigo estricto con internos completos y un único enlace opuesto $(1,4)$, de conectividad $\mu>0.68877357363$. Su ventaja sobre toda la clase restringida es mayor que $1.99\cdot10^{-7}$.
+\end{proposicion}
+
+El enlace opuesto tiene densidad $15852476440088611/10^{22}$; se reajustan también los adyacentes y los demás opuestos siguen en cero. Los datos racionales están en \path{one_opposite_link_data.json}.
+
+\textbf{Cota dual.} El diseño lineal para fases prescritas y la dualidad tienen antecedentes \cite{menara,boyd}. Poner $b_i=x_iF_i$, $d_i=(Px)_i$ y escribir, para densidades variables $p_e\in[0,1]$,
+\[
+ d=d_0+Bp,\qquad b=b_0+Ap,\qquad H=H_0+\sum_e p_eH_e.
+\]
+Para racionales $\lambda_i\geq0$, $\sum\lambda_i=1$, $\eta$ libre y $W\succeq0$, todo equilibrio semidefinido satisface
+\[
+ \mu\leq\lambda^Td\leq\lambda^Td+\operatorname{tr}(WH)+\eta^Tb
+ =\kappa+\sum_e a_ep_e\leq U:=\kappa+\sum_e\max(0,a_e).
+\]
+El verificador reconstruye $W$ mediante una congruencia y LDL racional, y calcula $U$ directamente, sin importar el constructor ni CVXPY. Un testigo restringido da además $L>0.68877337398$ y $U-L<2\cdot10^{-10}$. En el testigo ampliado se comprueba primero $F=0$ exacto, luego $\gamma_i>0$ y seis pivotes positivos del gauge completo de $H$. Eso equivale a positividad fuera de la rotación; los pivotes no son autovalores. La prueba completa está en \path{obstruccion_patron_finito.md}.
+
+\textbf{Grafos simples del mismo orden.} Para un grafo en equilibrio con Hessiano semidefinido, estas fases, hojas completas y opuestos vacíos, promediar adyacencias por grupos y usar diagonal de plantilla uno conserva equilibrio y semidefinitud, sin regularidad entre bloques. El grado mínimo no se iguala al promedio:
+\[
+ \frac{\delta(G)+1}{n}\leq\min_i\frac{\bar\delta_i+1}{n}=\mu(T)\leq U.
+\]
+Los dos testigos racionales tienen un denominador par común $D$ de 57 cifras. Adelgazar solo la diagonal a $1-1/D$ permite aplicar el Lema 2 de \cite{okeeffe} con $\ell=1$, cuyas condiciones enteras se verifican exactamente. Produce dos grafos simples estrictos del mismo orden $n=D^2$, de 113 cifras. Completar después cada cluster de fase igual agrega gradiente cero y un Laplaciano positivo; cada vértice queda con grado $nd_i-1$. Así $(\delta(G^\pm)+1)/n=\mu(P^\pm)$ y la separación se conserva. Para $\delta/n$ la ventaja es idéntica y para $\delta/(n-1)$ se multiplica por $n/(n-1)$, siempre al mismo orden.
+
+Es un traslado existencial: no se seleccionan los conjuntos de desplazamientos del lema ni se enumeran aristas. La prueba y el control entero están en \path{separacion_grafos_simples.md} y su verificador. El resultado finito no aumenta la constante conocida $\muo$ ni contradice la cota asintótica anterior.
+
+\section{Reproducción}
+Con Python estándar, \path{verify_profile_upper_mass_flow.py} comprueba la cobertura completa. \path{profile_upper_mass_flow_checks.py} rechaza seis alteraciones y conserva tres testigos estrictos; \path{mass_flow_lemma_checks.py} comprueba 24 desigualdades en cuatro testigos previos. Equilibrio exacto se comprueba antes de estabilidad. \path{verify_covariance_reduction.py} y \path{verify_global_optimum.py} requieren SymPy: verifican identidades de la reducción y el intervalo algebraico de referencia. El paquete \path{kit-cota-flujos-06934-v1.zip} conserva la versión original con Hessiano estricto; no incluye esta ampliación.
+
+La ampliación escrita está en \path{cota_minimos_locales_06934.md}; \path{verify_quarter_turn_local_minima.py} comprueba el lema y un equilibrio semidefinido con descenso de energía. \path{auditoria_paso_variacional.md} y \path{auditoria_flujos_centros.md} explicitan los errores uniformes y el vector no nulo; sus controles son \path{verify_variational_bridge.py} y \path{verify_flow_centers.py}. Usan SymPy y, en el control a 120 dígitos, mpmath. Las identidades exactas, controles racionales y evaluaciones numéricas están separados. Ninguno verifica por máquina toda la reducción continua, que requiere revisar el argumento escrito.
+
+Un punto racional satisface las condiciones proyectadas incluso a $u=0.6932$. Es un testigo de la relajación, sin transportes ni equilibrio realizados: no mejora la cota inferior de Kuramoto. Muestra que acercar más esta vía requiere restricciones adicionales, no solo subdividir cajas. Se verifica con \path{verify_mass_flow_relaxation.py}.
+
+Los certificados finitos solo requieren Python estándar:
+\[
+ \texttt{python fixed\_geometry\_checks.py},\qquad
+ \texttt{python verify\_pattern\_obstruction.py}.
+\]
+La primera orden pasa nueve controles de datos y corrupciones; la segunda reproduce la separación. El paquete \path{kit-patron-finito-kuramoto.zip} conserva datos, verificadores y manifiesto; pasó en una copia aislada sin bibliotecas externas.
+
+\path{verify_simple_graph_separation.py} comprueba grados y normalizaciones del traslado a grafos. Su suite añade controles de agregación y completación y rechaza cinco corrupciones. Los grafos siguen siendo existenciales por el lema citado.
+
+Los SDP solo propusieron candidatos. Sus estados y parámetros se conservan en los datos; la aceptación usa equilibrio corregido exactamente y desigualdades racionales. Las afirmaciones sobre sucesiones usan la reducción analítica y la cobertura completa; no se deducen de muestras finitas.
+
+\clearpage
+\section{Límites y uso de IA}
+La racionalización por bosque se desarrolla en \path{certificados_racionales.md}. La asignación lineal de pesos, S7, la dualidad y el descenso cúbico tienen antecedentes; la novedad de las deducciones concretas sigue sin establecerse.
+
+\textbf{Límites.} No aumentamos $\muo$, no determinamos la conectividad crítica general y no enumeramos un nuevo grafo simple. Los resultados distinguen una separación a geometría fija, su traslado existencial a grafos simples y una cota para la clase asintótica indicada. Las búsquedas adicionales no son pruebas de exhaustividad. La cota asintótica es el eje elegido para la defensa; la revisión matemática del equipo y mentores sigue pendiente.
+
+\textbf{Declaración de IA.}
+Codex (OpenAI) realizó lecturas, derivaciones, búsquedas, código, certificados y redacción. Las solicitudes relevantes fueron preparar el proyecto, intentar resolver el problema en \path{llm-invtigascion} y \texttt{/goal gana el invetigathon}. Se usaron CVXPY 1.9.3, Clarabel 0.11.1, SymPy 1.14.0 y fracciones de Python; versiones en \path{environment.json}. La charla reutiliza una ilustración conceptual de \texttt{image\_gen}; su prompt está en \path{exposicion/visual_asset.md}. No se usaron subagentes. Constructor y verificador proceden del mismo agente: su separación no es revisión independiente.
+
+La bitácora registra avances y límites. Con autorización expresa del usuario se conservaron 159 y 20 mensajes visibles de dos chats, con cortes de turno completo del 22/10 a las 22:43:46.836 UTC y del 18/10 a las 04:02:45.503 UTC, respectivamente. \path{trazabilidad/README.md} precisa su alcance: excluyen razonamiento, configuración, herramientas y registros brutos. No cubren estas ampliaciones posteriores ni todos los chats posibles. El equipo confirmó el 22/10 que todavía no revisó la prueba; faltan revisión humana, contraste de novedad y ensayo. Esta versión ampliada no está en los paquetes congelados, la charla o el póster anteriores. No se publicó ni presentó al evento.
+
+\begin{thebibliography}{9}
+\bibitem{bullo} F. Bullo, \emph{Lectures on Network Systems}, ed.\ 1.6, 2022, cap.\ 17.
+\bibitem{okeeffe} K. P. O'Keeffe, \emph{Beyond 11/16: dense Kuramoto networks that resist synchrony}, arXiv:2610.21271v1, 2026. \url{https://arxiv.org/html/2610.21271v1}
+\bibitem{lz} S. Lepsveridze y S. Zhang, \emph{Graphs with connectivity $3/4-\varepsilon$ are globally synchronizing}, arXiv:2608.20010v1, 2026, Lema 11. \url{https://arxiv.org/html/2608.20010v1}
+\bibitem{menara} T. Menara, G. Baggio, D. Bassett y F. Pasqualetti, \emph{Functional control of oscillator networks}, Nature Communications 13, 4721 (2022). \url{https://www.nature.com/articles/s41467-022-31733-2}
+\bibitem{boyd} S. Boyd y L. Vandenberghe, \emph{Convex Optimization}, diapositivas oficiales, cap.\ 5. \url{https://web.stanford.edu/~boyd/cvxbook/bv_cvxslides.pdf}
+\end{thebibliography}
+\end{document}

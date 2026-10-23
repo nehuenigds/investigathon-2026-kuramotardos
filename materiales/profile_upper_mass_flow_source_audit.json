@@ -1,0 +1,18 @@
+{
+  "all_source_bindings_passed": true,
+  "target": "3467/5000",
+  "certificate_sha256": "2e0beb78e67adec883d4a5bb9e5feab063958976b3b1253f7c7739db851e84f3",
+  "source_sha256": {
+    "cota_flujos_06934.md": "78283427e98bf10da65fed857a87b1fdd9db31812eac2d4f0aa375854053d48f",
+    "cota_flujos_por_masa.md": "1ea74a4e29276175f534cdcbbe4658025dba2b245138e72b3c9588c9e4797486",
+    "cota_capacidades_agregadas.md": "3a555da4a0800be9795acc39d66c8c142537c5cd3689692574351f86dd6e4e20",
+    "cota_perfil_general.md": "77376d0b5e485ead8dcfcd2c630eadf866bfd68483da597be255878ad785420c",
+    "verify_profile_upper_mass_flow.py": "e0d11a9bf28cb903df55d40946e77aa8820aab176ce2cc00e26f2f05b8cd880b",
+    "profile_upper_mass_flow_interval.py": "d7ff089561d83e73b12c47d99e6bfc4efef936bbf5f34328563883dfbf603aa0",
+    "profile_matrix_bernstein.py": "48efd37f0b62b312163c88756cbae8f11454b75815eec26dd2cf0f1c078806d5",
+    "profile_upper_interval_refined.py": "53632befd112ab987e38e7fede9d7b8f9c9fcaa86731f83bbc3599d7d80710f7",
+    "profile_upper_mass_flow_checks.py": "eac2187c50ddbb8476ef47c285a60c34306423eea9e69baa142e3c3820f1040a",
+    "global_optimum_certificate.json": "17473a06ebf9152648c2f0df0101fd65b23b637f914d0658d612970ccae7170c"
+  },
+  "scope": "Provenance for the complete rational covering and written analytic chain; independent human review and novelty remain pending."
+}

@@ -1,0 +1,23 @@
+{
+  "exact_strict_separation": true,
+  "restricted_exact_upper": "22932042656907896666211967332292049432454853075465610257172906082863724484469/33294031850092811657868009873322401554614952986372408265625000000000000000000",
+  "one_opposite_exact_lower": "281883177201488871327530747686722406882229847766810587389/409253763490030188549650056760456323500000000000000000000",
+  "exact_advantage": "1682149116735228169168519761466487509209224183944144466534761697870218317876428762197/8433160560658116350652273522354779476432460839323942686434439598192937500000000000000000000",
+  "advantage_approx": 1.9946840862756618e-07,
+  "opposite_edge_zero_based": [
+    1,
+    4
+  ],
+  "opposite_density": "15852476440088611/10000000000000000000000",
+  "same_sheet_links_complete": true,
+  "all_other_opposite_links_absent": true,
+  "claim": "At these fixed masses and phases, keeping all opposite densities zero loses connectivity, even after optimizing all adjacent densities.",
+  "scope": "Finite weighted templates, not a new bound on general critical connectivity; no contradiction with a result about the zero-splitting limit.",
+  "data_sha256": {
+    "fixed_geometry_005_tight_data.json": "a6ef99735254724d0dbedb7dc832d46944884a2dc6ee10c050c2015777c37bb6",
+    "one_opposite_link_data.json": "057bf0d88c8e8acbf0b7cb83c76314d382ab29319565726d4f65a9d633022a31"
+  },
+  "verifier_sha256": "cda8ca0490c230b6754c35059e3ffc000a12583fc3e4ca38c445da422c009b4d",
+  "dual_verifier_sha256": "c7188efe14ec801604c8ea21c236c6b8bad8e258da558b50d4a1721ec554ead2",
+  "lower_verifier_sha256": "3ba3fe392f8ef6f6121b14430daa46bd6483c658271b84d09516ff272cc3fbee"
+}

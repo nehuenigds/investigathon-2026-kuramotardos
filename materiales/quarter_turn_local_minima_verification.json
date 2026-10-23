@@ -1,0 +1,45 @@
+{
+  "finite_identities_passed": true,
+  "source": "Lepsveridze-Zhang v1 Lemma 11, adapted to weighted templates",
+  "opposite_modal_forms": [
+    "-4*U",
+    "-4*V"
+  ],
+  "rational_energy_difference": "-8*T*r**3/(r**2 + 1)**2",
+  "baseline_equilibrium_checked_before_hessian": true,
+  "baseline_mu": "3/4",
+  "baseline_hessian_psd_by_blocks": true,
+  "baseline_hessian_rank": 3,
+  "baseline_transverse_zero_modes": 3,
+  "baseline_is_not_a_local_minimum": true,
+  "examples": [
+    {
+      "tan_half_angle": "1/10",
+      "energy_difference": "-5/10201"
+    },
+    {
+      "tan_half_angle": "1/100",
+      "energy_difference": "-50/100020001"
+    },
+    {
+      "tan_half_angle": "1/1000",
+      "energy_difference": "-500/1000002000001"
+    }
+  ],
+  "perturbed_points_claimed_as_equilibria": false,
+  "aggregation_energy_coefficient_identity": true,
+  "existing_tree_bound_by_hash": true,
+  "tree_reexecuted": false,
+  "tree_reconstructed": false,
+  "source_sha256": {
+    "cota_perfil_general.md": "77376d0b5e485ead8dcfcd2c630eadf866bfd68483da597be255878ad785420c",
+    "cota_capacidades_agregadas.md": "3a555da4a0800be9795acc39d66c8c142537c5cd3689692574351f86dd6e4e20",
+    "cota_flujos_06934.md": "78283427e98bf10da65fed857a87b1fdd9db31812eac2d4f0aa375854053d48f",
+    "cota_minimos_locales_06934.md": "e08bfcca44a7fd88fcb3514f9cfd4e9ea277de8a4c8c488e3e3d03a1db0c21ac",
+    "profile_upper_certificate_06934-v1.json": "2e0beb78e67adec883d4a5bb9e5feab063958976b3b1253f7c7739db851e84f3",
+    "profile_upper_certificate_06934-v1_verification.json": "e5b8f91b568c7f9e4d3945191fe82452e0808fd51506cb5716ca8ae94f2c92ea",
+    "verify_profile_upper_mass_flow.py": "e0d11a9bf28cb903df55d40946e77aa8820aab176ce2cc00e26f2f05b8cd880b"
+  },
+  "verifier_source_sha256": "4f46efbc3c38da2baa475179a69f7eb7338712ec9ee0cbc3283cddc757bf34b0",
+  "scope": "Exact finite obstruction, illustrative descents and source bindings. The asymptotic implication also requires the written reduction; not independent human review or novelty verification."
+}

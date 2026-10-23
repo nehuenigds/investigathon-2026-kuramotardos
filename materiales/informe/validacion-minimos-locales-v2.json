@@ -1,0 +1,74 @@
+{
+  "source_sha256": "47cbfe8d2dcaaeacb5806739947f04628dbad6c3aca9c85b78480253f04d9b39",
+  "pdf_sha256": "6cf55f2388be4bd4ed95f5747cd58feb9534b252af86982e87cb41c8f5a9b0c7",
+  "pages": 5,
+  "max_pages": 5,
+  "within_page_limit": true,
+  "unresolved_references": false,
+  "overfull_boxes": false,
+  "compiler_runs": [
+    {
+      "pass": 1,
+      "exit_code": 0,
+      "seconds": 2.2969999999986612
+    },
+    {
+      "pass": 2,
+      "exit_code": 0,
+      "seconds": 2.3430000000007567
+    }
+  ],
+  "page_characters": [
+    2531,
+    3859,
+    4202,
+    3297,
+    2661
+  ],
+  "required_content_present": true,
+  "candidate_path": "C:\\Users\\nehue\\AppData\\Local\\Temp\\kuramoto-report-local-minima-69cb16fc417b4e0a8c7932a309360636\\report-local-minima\\main.pdf",
+  "render_paths": [
+    "C:\\Users\\nehue\\AppData\\Local\\Temp\\kuramoto-report-local-minima-69cb16fc417b4e0a8c7932a309360636\\report-local-minima\\page-1.png",
+    "C:\\Users\\nehue\\AppData\\Local\\Temp\\kuramoto-report-local-minima-69cb16fc417b4e0a8c7932a309360636\\report-local-minima\\page-2.png",
+    "C:\\Users\\nehue\\AppData\\Local\\Temp\\kuramoto-report-local-minima-69cb16fc417b4e0a8c7932a309360636\\report-local-minima\\page-3.png",
+    "C:\\Users\\nehue\\AppData\\Local\\Temp\\kuramoto-report-local-minima-69cb16fc417b4e0a8c7932a309360636\\report-local-minima\\page-4.png",
+    "C:\\Users\\nehue\\AppData\\Local\\Temp\\kuramoto-report-local-minima-69cb16fc417b4e0a8c7932a309360636\\report-local-minima\\page-5.png"
+  ],
+  "page_render_sha256": {
+    "1": "c5ed176782110022d2d4eca86e906ed503bfb73f59fd2a205296265b955698ce",
+    "2": "978d9dc5fbfd59279edf8c9d464cbcb775d3abdd2967e60ead46f81fa6138358",
+    "3": "a98c58191281a7ec341467d16a72cb65fc730f7942abe37f21ac4dd1ce5b74aa",
+    "4": "f5d1817a3adadb1ef84736948ca96ab81da2f2433384f3b1cee57836e41670e1",
+    "5": "65ef29c4ff46f293084282b82c267b5420594bceb44027e0b4cfe4c18b6ecf42"
+  },
+  "build_source_sha256": "517965a6c5050adf5455afefbfd7ca0cd627cebd285df6910e3eb9d268455eb9",
+  "visual_review": "All five final pages inspected individually by Codex. No overlap, clipping, missing glyphs or broken references observed. The theorem starts intact on page 2; limits, AI declaration and references share page 5.",
+  "independent_human_review": false,
+  "submitted": false,
+  "status": "Expanded local-minimum theorem; draft for team review, not a competition submission.",
+  "reviewed_pdf_path": "C:\\Users\\nehue\\W\\10 Proyectos\\Investigathon 2026 - Kuramoto\\llm-invtigascion\\informe\\output\\pdf\\informe-minimos-locales-v2.pdf",
+  "version": "Expanded theorem for actual local minima, including degeneracy; standalone review draft.",
+  "frozen_base_media_and_archives_preserved": true,
+  "included_in_frozen_team_package": false,
+  "included_in_current_talk_or_poster": false,
+  "mathematical_source_sha256": {
+    "flow_centers_verification.json": "97b302536013c42a83620869a4616d1406abcb958efe6501cef80787952db609",
+    "cota_flujos_06934.md": "78283427e98bf10da65fed857a87b1fdd9db31812eac2d4f0aa375854053d48f",
+    "quarter_turn_local_minima_verification.json": "b49ef3ec5abc81e6b514bd5dce7c514eb5c63c7079b1044297939cc0a1da4ed9",
+    "variational_bridge_verification.json": "b5f9af34436c767c6e80b026cc0df223763d0ae1416845e88481989f5ff7dbdd",
+    "cota_minimos_locales_06934.md": "e08bfcca44a7fd88fcb3514f9cfd4e9ea277de8a4c8c488e3e3d03a1db0c21ac",
+    "profile_upper_certificate_06934-v1.json": "2e0beb78e67adec883d4a5bb9e5feab063958976b3b1253f7c7739db851e84f3",
+    "auditoria_paso_variacional.md": "e86f918dfe9e8321caf46d6d53aa60ff5c7f20701465b79819ac2cb0f06d7852",
+    "auditoria_flujos_centros.md": "8312518188941548fed092ddc864f161fe0a5ada99e84bd08de0079cda7205c0"
+  },
+  "bibliography_rechecked": [
+    "https://arxiv.org/html/2608.20010v1",
+    "https://arxiv.org/html/2610.21271v1"
+  ],
+  "bibliographic_novelty_verified": false,
+  "temporary_outputs": "All compiler auxiliaries, logs, candidate copies and page images remain in local system temporary folders outside W and Drive.",
+  "visible_history_counts": [
+    159,
+    20
+  ]
+}

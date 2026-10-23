@@ -1,0 +1,1059 @@
+{
+  "symbolic_exact_checks": {
+    "all_assertions_passed": true,
+    "edge_residual_identities": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        3,
+        6
+      ]
+    ],
+    "modal_square_factors": true,
+    "internal_block_normalization": true,
+    "mixed_block_factor_bounds": true,
+    "completion_and_minimizer_identities": true,
+    "bound_constant_bookkeeping": true
+  },
+  "finite_controls_passed": 11,
+  "strict_controls": 8,
+  "degenerate_psd_controls": 3,
+  "broken_equilibrium_rejected_before_stability": true,
+  "precision_decimal_digits": 120,
+  "controls": [
+    {
+      "name": "preserved_witness_1_density_scale_1",
+      "exact_equilibrium_before_hessian": true,
+      "exact_psd_evidence": "Strict rational gauge LDL from existing verifier",
+      "control_only_not_new_connectivity_record": true,
+      "evaluation": {
+        "h": "0.0000008399999999999506080000000052",
+        "max_abs_u": "1.0",
+        "nonzero_opposite_links": 0,
+        "positive_internal_coefficients": [
+          true,
+          true,
+          true
+        ],
+        "zero_internal_splits": [
+          false,
+          false,
+          false
+        ],
+        "checks": {
+          "S_lower": {
+            "value": "-6.600438276112255357587198627e-14",
+            "bound": "0.0"
+          },
+          "S_upper": {
+            "value": "6.600438276112255357587198627e-14",
+            "bound": "1.646399999999806383360000026e-12"
+          },
+          "opposite_total": {
+            "value": "0.0",
+            "bound": "9.40799999999889361920000015e-13"
+          },
+          "leaf_trace": {
+            "value": "1.320087655222451071517439725e-13",
+            "bound": "3.292799999999612766720000052e-12"
+          },
+          "four_cut_residuals": {
+            "value": "0.0000000234242406874682209498149479",
+            "bound": "0.000003920000470399769503944680984"
+          },
+          "rescaled_S_error": {
+            "value": "1.74953938679993426772476145e-14",
+            "bound": "0.000001120004703999934143446809607"
+          },
+          "cross_block_error": {
+            "value": "6.42893857873300155985846532e-15",
+            "bound": "0.000001120000235199934143972340487"
+          },
+          "internal_block_error": {
+            "value": "3.957107593982079853449973421e-9",
+            "bound": "0.0000002100005879999876519308512013"
+          },
+          "variation_nonnegative_0": {
+            "value": "-0.01532030554100922666241878511",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_0": {
+            "value": "0.01532030554100922666241878511",
+            "bound": "0.01532030554100922666241878511"
+          },
+          "variation_nonnegative_1": {
+            "value": "-0.008684712511726398571988465437",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_1": {
+            "value": "0.008684712511726398571988465437",
+            "bound": "0.008684712511726398571988465437"
+          }
+        },
+        "variations": [
+          {
+            "alpha": 1,
+            "actual_scaled_energy": "0.01532030554100922666241878511",
+            "opposites_omitted_upper": "0.01532030554100922666241878511"
+          },
+          {
+            "alpha": 2,
+            "actual_scaled_energy": "0.008684712511726398571988465437",
+            "opposites_omitted_upper": "0.008684712511726398571988465437"
+          }
+        ],
+        "evidence": "120-digit numerical evaluation; not rigorous interval acceptance"
+      }
+    },
+    {
+      "name": "preserved_witness_1_density_scale_1/2",
+      "exact_equilibrium_before_hessian": true,
+      "exact_psd_evidence": "Strict rational gauge LDL from existing verifier",
+      "control_only_not_new_connectivity_record": true,
+      "evaluation": {
+        "h": "0.0000008399999999999506080000000052",
+        "max_abs_u": "1.0",
+        "nonzero_opposite_links": 0,
+        "positive_internal_coefficients": [
+          true,
+          true,
+          true
+        ],
+        "zero_internal_splits": [
+          false,
+          false,
+          false
+        ],
+        "checks": {
+          "S_lower": {
+            "value": "-3.300219138056127678793599313e-14",
+            "bound": "0.0"
+          },
+          "S_upper": {
+            "value": "3.300219138056127678793599313e-14",
+            "bound": "1.646399999999806383360000026e-12"
+          },
+          "opposite_total": {
+            "value": "0.0",
+            "bound": "9.40799999999889361920000015e-13"
+          },
+          "leaf_trace": {
+            "value": "6.600438276112255357587198627e-14",
+            "bound": "3.292799999999612766720000052e-12"
+          },
+          "four_cut_residuals": {
+            "value": "0.00000001171212034373411047490747395",
+            "bound": "0.000003920000470399769503944680984"
+          },
+          "rescaled_S_error": {
+            "value": "8.747696933999671338623807252e-15",
+            "bound": "0.000001120004703999934143446809607"
+          },
+          "cross_block_error": {
+            "value": "3.21446928936650077992923266e-15",
+            "bound": "0.000001120000235199934143972340487"
+          },
+          "internal_block_error": {
+            "value": "1.978553796991039926724986711e-9",
+            "bound": "0.0000002100005879999876519308512013"
+          },
+          "variation_nonnegative_0": {
+            "value": "-0.01743806787314850747210053446",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_0": {
+            "value": "0.01743806787314850747210053446",
+            "bound": "0.01743806787314850747210053446"
+          },
+          "variation_nonnegative_1": {
+            "value": "-0.01494972048715774600067019689",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_1": {
+            "value": "0.01494972048715774600067019689",
+            "bound": "0.01494972048715774600067019689"
+          }
+        },
+        "variations": [
+          {
+            "alpha": 1,
+            "actual_scaled_energy": "0.01743806787314850747210053446",
+            "opposites_omitted_upper": "0.01743806787314850747210053446"
+          },
+          {
+            "alpha": 2,
+            "actual_scaled_energy": "0.01494972048715774600067019689",
+            "opposites_omitted_upper": "0.01494972048715774600067019689"
+          }
+        ],
+        "evidence": "120-digit numerical evaluation; not rigorous interval acceptance"
+      }
+    },
+    {
+      "name": "preserved_witness_2_density_scale_1",
+      "exact_equilibrium_before_hessian": true,
+      "exact_psd_evidence": "Strict rational gauge LDL from existing verifier",
+      "control_only_not_new_connectivity_record": true,
+      "evaluation": {
+        "h": "0.0000008399999999999506080000000052",
+        "max_abs_u": "1.0",
+        "nonzero_opposite_links": 0,
+        "positive_internal_coefficients": [
+          true,
+          true,
+          true
+        ],
+        "zero_internal_splits": [
+          false,
+          false,
+          false
+        ],
+        "checks": {
+          "S_lower": {
+            "value": "-6.581717451522040060213239297e-14",
+            "bound": "0.0"
+          },
+          "S_upper": {
+            "value": "6.581717451522040060213239297e-14",
+            "bound": "1.646399999999806383360000026e-12"
+          },
+          "opposite_total": {
+            "value": "0.0",
+            "bound": "9.40799999999889361920000015e-13"
+          },
+          "leaf_trace": {
+            "value": "1.316343490304408012042647859e-13",
+            "bound": "3.292799999999612766720000052e-12"
+          },
+          "four_cut_residuals": {
+            "value": "0.00000002317219020973568531480749023",
+            "bound": "0.000003920000470399769503944680984"
+          },
+          "rescaled_S_error": {
+            "value": "1.491720619769482652536003363e-14",
+            "bound": "0.000001120004703999934143446809607"
+          },
+          "cross_block_error": {
+            "value": "6.415816383062749041966683969e-15",
+            "bound": "0.000001120000235199934143972340487"
+          },
+          "internal_block_error": {
+            "value": "3.949030646634003514275697469e-9",
+            "bound": "0.0000002100005879999876519308512013"
+          },
+          "variation_nonnegative_0": {
+            "value": "-0.01149711119900065465919785386",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_0": {
+            "value": "0.01149711119900065465919785386",
+            "bound": "0.01149711119900065465919785386"
+          },
+          "variation_nonnegative_1": {
+            "value": "-0.0128268867657802863941620041",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_1": {
+            "value": "0.0128268867657802863941620041",
+            "bound": "0.0128268867657802863941620041"
+          }
+        },
+        "variations": [
+          {
+            "alpha": 1,
+            "actual_scaled_energy": "0.01149711119900065465919785386",
+            "opposites_omitted_upper": "0.01149711119900065465919785386"
+          },
+          {
+            "alpha": 2,
+            "actual_scaled_energy": "0.0128268867657802863941620041",
+            "opposites_omitted_upper": "0.0128268867657802863941620041"
+          }
+        ],
+        "evidence": "120-digit numerical evaluation; not rigorous interval acceptance"
+      }
+    },
+    {
+      "name": "preserved_witness_2_density_scale_1/2",
+      "exact_equilibrium_before_hessian": true,
+      "exact_psd_evidence": "Strict rational gauge LDL from existing verifier",
+      "control_only_not_new_connectivity_record": true,
+      "evaluation": {
+        "h": "0.0000008399999999999506080000000052",
+        "max_abs_u": "1.0",
+        "nonzero_opposite_links": 0,
+        "positive_internal_coefficients": [
+          true,
+          true,
+          true
+        ],
+        "zero_internal_splits": [
+          false,
+          false,
+          false
+        ],
+        "checks": {
+          "S_lower": {
+            "value": "-3.290858725761020030106619648e-14",
+            "bound": "0.0"
+          },
+          "S_upper": {
+            "value": "3.290858725761020030106619648e-14",
+            "bound": "1.646399999999806383360000026e-12"
+          },
+          "opposite_total": {
+            "value": "0.0",
+            "bound": "9.40799999999889361920000015e-13"
+          },
+          "leaf_trace": {
+            "value": "6.581717451522040060213239297e-14",
+            "bound": "3.292799999999612766720000052e-12"
+          },
+          "four_cut_residuals": {
+            "value": "0.00000001158609510486784265740374512",
+            "bound": "0.000003920000470399769503944680984"
+          },
+          "rescaled_S_error": {
+            "value": "7.458603098847413262680016816e-15",
+            "bound": "0.000001120004703999934143446809607"
+          },
+          "cross_block_error": {
+            "value": "3.207908191531374520983341985e-15",
+            "bound": "0.000001120000235199934143972340487"
+          },
+          "internal_block_error": {
+            "value": "1.974515323317001757137848735e-9",
+            "bound": "0.0000002100005879999876519308512013"
+          },
+          "variation_nonnegative_0": {
+            "value": "-0.01597120526879405703210397361",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_0": {
+            "value": "0.01597120526879405703210397361",
+            "bound": "0.01597120526879405703210397361"
+          },
+          "variation_nonnegative_1": {
+            "value": "-0.01646987110632696982958852686",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_1": {
+            "value": "0.01646987110632696982958852686",
+            "bound": "0.01646987110632696982958852686"
+          }
+        },
+        "variations": [
+          {
+            "alpha": 1,
+            "actual_scaled_energy": "0.01597120526879405703210397361",
+            "opposites_omitted_upper": "0.01597120526879405703210397361"
+          },
+          {
+            "alpha": 2,
+            "actual_scaled_energy": "0.01646987110632696982958852686",
+            "opposites_omitted_upper": "0.01646987110632696982958852686"
+          }
+        ],
+        "evidence": "120-digit numerical evaluation; not rigorous interval acceptance"
+      }
+    },
+    {
+      "name": "preserved_witness_3_density_scale_1",
+      "exact_equilibrium_before_hessian": true,
+      "exact_psd_evidence": "Strict rational gauge LDL from existing verifier",
+      "control_only_not_new_connectivity_record": true,
+      "evaluation": {
+        "h": "0.0000008399999999999506080000000052",
+        "max_abs_u": "1.0",
+        "nonzero_opposite_links": 0,
+        "positive_internal_coefficients": [
+          true,
+          true,
+          true
+        ],
+        "zero_internal_splits": [
+          false,
+          false,
+          false
+        ],
+        "checks": {
+          "S_lower": {
+            "value": "-6.571992110452321967494385385e-14",
+            "bound": "0.0"
+          },
+          "S_upper": {
+            "value": "6.571992110452321967494385385e-14",
+            "bound": "1.646399999999806383360000026e-12"
+          },
+          "opposite_total": {
+            "value": "0.0",
+            "bound": "9.40799999999889361920000015e-13"
+          },
+          "leaf_trace": {
+            "value": "1.314398422090464393498877077e-13",
+            "bound": "3.292799999999612766720000052e-12"
+          },
+          "four_cut_residuals": {
+            "value": "0.00000002296182011571416086178312296",
+            "bound": "0.000003920000470399769503944680984"
+          },
+          "rescaled_S_error": {
+            "value": "1.24957719761588977406637883e-14",
+            "bound": "0.000001120004703999934143446809607"
+          },
+          "cross_block_error": {
+            "value": "6.39556923076905989333865512e-15",
+            "bound": "0.000001120000235199934143972340487"
+          },
+          "internal_block_error": {
+            "value": "3.936568594240338493057716424e-9",
+            "bound": "0.0000002100005879999876519308512013"
+          },
+          "variation_nonnegative_0": {
+            "value": "-0.007893471838655601694786887313",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_0": {
+            "value": "0.007893471838655601694786887313",
+            "bound": "0.007893471838655601694786887313"
+          },
+          "variation_nonnegative_1": {
+            "value": "-0.01676187613769933055472301324",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_1": {
+            "value": "0.01676187613769933055472301324",
+            "bound": "0.01676187613769933055472301324"
+          }
+        },
+        "variations": [
+          {
+            "alpha": 1,
+            "actual_scaled_energy": "0.007893471838655601694786887313",
+            "opposites_omitted_upper": "0.007893471838655601694786887313"
+          },
+          {
+            "alpha": 2,
+            "actual_scaled_energy": "0.01676187613769933055472301324",
+            "opposites_omitted_upper": "0.01676187613769933055472301324"
+          }
+        ],
+        "evidence": "120-digit numerical evaluation; not rigorous interval acceptance"
+      }
+    },
+    {
+      "name": "preserved_witness_3_density_scale_1/2",
+      "exact_equilibrium_before_hessian": true,
+      "exact_psd_evidence": "Strict rational gauge LDL from existing verifier",
+      "control_only_not_new_connectivity_record": true,
+      "evaluation": {
+        "h": "0.0000008399999999999506080000000052",
+        "max_abs_u": "1.0",
+        "nonzero_opposite_links": 0,
+        "positive_internal_coefficients": [
+          true,
+          true,
+          true
+        ],
+        "zero_internal_splits": [
+          false,
+          false,
+          false
+        ],
+        "checks": {
+          "S_lower": {
+            "value": "-3.285996055226160983747192693e-14",
+            "bound": "0.0"
+          },
+          "S_upper": {
+            "value": "3.285996055226160983747192693e-14",
+            "bound": "1.646399999999806383360000026e-12"
+          },
+          "opposite_total": {
+            "value": "0.0",
+            "bound": "9.40799999999889361920000015e-13"
+          },
+          "leaf_trace": {
+            "value": "6.571992110452321967494385385e-14",
+            "bound": "3.292799999999612766720000052e-12"
+          },
+          "four_cut_residuals": {
+            "value": "0.00000001148091005785708043089156148",
+            "bound": "0.000003920000470399769503944680984"
+          },
+          "rescaled_S_error": {
+            "value": "6.247885988079448870331894152e-15",
+            "bound": "0.000001120004703999934143446809607"
+          },
+          "cross_block_error": {
+            "value": "3.19778461538452994666932756e-15",
+            "bound": "0.000001120000235199934143972340487"
+          },
+          "internal_block_error": {
+            "value": "1.968284297120169246528858212e-9",
+            "bound": "0.0000002100005879999876519308512013"
+          },
+          "variation_nonnegative_0": {
+            "value": "-0.01460261165898139012353493455",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_0": {
+            "value": "0.01460261165898139012353493455",
+            "bound": "0.01460261165898139012353493455"
+          },
+          "variation_nonnegative_1": {
+            "value": "-0.01792826327111356919227253443",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_1": {
+            "value": "0.01792826327111356919227253443",
+            "bound": "0.01792826327111356919227253443"
+          }
+        },
+        "variations": [
+          {
+            "alpha": 1,
+            "actual_scaled_energy": "0.01460261165898139012353493455",
+            "opposites_omitted_upper": "0.01460261165898139012353493455"
+          },
+          {
+            "alpha": 2,
+            "actual_scaled_energy": "0.01792826327111356919227253443",
+            "opposites_omitted_upper": "0.01792826327111356919227253443"
+          }
+        ],
+        "evidence": "120-digit numerical evaluation; not rigorous interval acceptance"
+      }
+    },
+    {
+      "name": "preserved_opposite_witness_density_scale_1",
+      "exact_equilibrium_before_hessian": true,
+      "exact_psd_evidence": "Strict rational gauge LDL from existing verifier",
+      "control_only_not_new_connectivity_record": true,
+      "evaluation": {
+        "h": "0.006999971416876752328418556077",
+        "max_abs_u": "1.0",
+        "nonzero_opposite_links": 1,
+        "positive_internal_coefficients": [
+          true,
+          true,
+          true
+        ],
+        "zero_internal_splits": [
+          false,
+          false,
+          false
+        ],
+        "checks": {
+          "S_lower": {
+            "value": "-0.00000676658065390231424112064018",
+            "bound": "0.0"
+          },
+          "S_upper": {
+            "value": "0.00000676658065390231424112064018",
+            "bound": "0.0001143323996198802309090531936"
+          },
+          "opposite_total": {
+            "value": "0.00000002708783192804239565978897005",
+            "bound": "0.00006533279978278870337660182493"
+          },
+          "leaf_trace": {
+            "value": "0.00001347898835269787702268410054",
+            "bound": "0.0002286647992397604618181063873"
+          },
+          "four_cut_residuals": {
+            "value": "0.0002496708254859026444325395975",
+            "bound": "0.03269919967864957188430822927"
+          },
+          "rescaled_S_error": {
+            "value": "0.0000001219499158321078382276845465",
+            "bound": "0.009659959221416279954774417228"
+          },
+          "cross_block_error": {
+            "value": "0.000004235209531444128063913276631",
+            "bound": "0.00934962842244803361373555856"
+          },
+          "internal_block_error": {
+            "value": "0.0000008567241003182918152129522682",
+            "bound": "0.00179082585408343102171501516"
+          },
+          "variation_nonnegative_0": {
+            "value": "-0.00000001437648777695407285127608677",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_0": {
+            "value": "0.00000001437648777695407285127608677",
+            "bound": "0.002211173458882724415073901139"
+          },
+          "variation_nonnegative_1": {
+            "value": "-0.00281941426431443856357450449",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_1": {
+            "value": "0.00281941426431443856357450449",
+            "bound": "0.00281941426431443856357450449"
+          }
+        },
+        "variations": [
+          {
+            "alpha": 1,
+            "actual_scaled_energy": "0.00000001437648777695407285127608677",
+            "opposites_omitted_upper": "0.002211173458882724415073901139"
+          },
+          {
+            "alpha": 2,
+            "actual_scaled_energy": "0.00281941426431443856357450449",
+            "opposites_omitted_upper": "0.00281941426431443856357450449"
+          }
+        ],
+        "evidence": "120-digit numerical evaluation; not rigorous interval acceptance"
+      }
+    },
+    {
+      "name": "preserved_opposite_witness_density_scale_1/2",
+      "exact_equilibrium_before_hessian": true,
+      "exact_psd_evidence": "Strict rational gauge LDL from existing verifier",
+      "control_only_not_new_connectivity_record": true,
+      "evaluation": {
+        "h": "0.006999971416876752328418556077",
+        "max_abs_u": "1.0",
+        "nonzero_opposite_links": 1,
+        "positive_internal_coefficients": [
+          true,
+          true,
+          true
+        ],
+        "zero_internal_splits": [
+          false,
+          false,
+          false
+        ],
+        "checks": {
+          "S_lower": {
+            "value": "-0.00000338329032695115712056032009",
+            "bound": "0.0"
+          },
+          "S_upper": {
+            "value": "0.00000338329032695115712056032009",
+            "bound": "0.0001143323996198802309090531936"
+          },
+          "opposite_total": {
+            "value": "0.00000001354391596402119782989448503",
+            "bound": "0.00006533279978278870337660182493"
+          },
+          "leaf_trace": {
+            "value": "0.000006739494176348938511342050268",
+            "bound": "0.0002286647992397604618181063873"
+          },
+          "four_cut_residuals": {
+            "value": "0.0001248354127429513222162697988",
+            "bound": "0.03269919967864957188430822927"
+          },
+          "rescaled_S_error": {
+            "value": "0.00000006097495791605391911384227325",
+            "bound": "0.009659959221416279954774417228"
+          },
+          "cross_block_error": {
+            "value": "0.000002117604765722064031956638316",
+            "bound": "0.00934962842244803361373555856"
+          },
+          "internal_block_error": {
+            "value": "0.0000004283620501591459076064761341",
+            "bound": "0.00179082585408343102171501516"
+          },
+          "variation_nonnegative_0": {
+            "value": "-0.01698748273296645536183238917",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_0": {
+            "value": "0.01698748273296645536183238917",
+            "bound": "0.01809306227416392909233291411"
+          },
+          "variation_nonnegative_1": {
+            "value": "-0.01831859385554691561443203262",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_1": {
+            "value": "0.01831859385554691561443203262",
+            "bound": "0.01831859385554691561443203262"
+          }
+        },
+        "variations": [
+          {
+            "alpha": 1,
+            "actual_scaled_energy": "0.01698748273296645536183238917",
+            "opposites_omitted_upper": "0.01809306227416392909233291411"
+          },
+          {
+            "alpha": 2,
+            "actual_scaled_energy": "0.01831859385554691561443203262",
+            "opposites_omitted_upper": "0.01831859385554691561443203262"
+          }
+        ],
+        "evidence": "120-digit numerical evaluation; not rigorous interval acceptance"
+      }
+    },
+    {
+      "name": "all_internal_edges_zero",
+      "exact_equilibrium_before_hessian": true,
+      "exact_psd_evidence": {
+        "exact_equilibrium": true,
+        "psd_method": "Disjoint nonnegative 2x2 Laplacian blocks and zero rows",
+        "hessian_rank": 0,
+        "strict_transverse_stability": false
+      },
+      "control_only_below_relevant_degree": true,
+      "evaluation": {
+        "h": "0.00199999933333373333304761927",
+        "max_abs_u": "1.0",
+        "nonzero_opposite_links": 0,
+        "positive_internal_coefficients": [
+          false,
+          false,
+          false
+        ],
+        "zero_internal_splits": [
+          false,
+          true,
+          false
+        ],
+        "checks": {
+          "S_lower": {
+            "value": "0.0",
+            "bound": "0.0"
+          },
+          "S_upper": {
+            "value": "0.0",
+            "bound": "0.000009333327111115881477570373707"
+          },
+          "opposite_total": {
+            "value": "0.0",
+            "bound": "0.000005333329777780503701468784975"
+          },
+          "leaf_trace": {
+            "value": "0.0",
+            "bound": "0.00001866665422223176295514074741"
+          },
+          "four_cut_residuals": {
+            "value": "0.0",
+            "bound": "0.009335996887112979139406290985"
+          },
+          "rescaled_S_error": {
+            "value": "0.0",
+            "bound": "0.002693332426667213629237502951"
+          },
+          "cross_block_error": {
+            "value": "0.0",
+            "bound": "0.002667999110222756236655526223"
+          },
+          "internal_block_error": {
+            "value": "0.0",
+            "bound": "0.0005033331644445461480753228081"
+          },
+          "variation_nonnegative_0": {
+            "value": "0.0",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_0": {
+            "value": "0.0",
+            "bound": "0.0"
+          },
+          "variation_nonnegative_1": {
+            "value": "0.0",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_1": {
+            "value": "0.0",
+            "bound": "0.0"
+          }
+        },
+        "variations": [
+          {
+            "alpha": 1,
+            "actual_scaled_energy": "0.0",
+            "opposites_omitted_upper": "0.0"
+          },
+          {
+            "alpha": 2,
+            "actual_scaled_energy": "0.0",
+            "opposites_omitted_upper": "0.0"
+          }
+        ],
+        "evidence": "120-digit numerical evaluation; not rigorous interval acceptance"
+      }
+    },
+    {
+      "name": "one_singular_internal_block",
+      "exact_equilibrium_before_hessian": true,
+      "exact_psd_evidence": {
+        "exact_equilibrium": true,
+        "psd_method": "Disjoint nonnegative 2x2 Laplacian blocks and zero rows",
+        "hessian_rank": 2,
+        "strict_transverse_stability": false
+      },
+      "control_only_below_relevant_degree": true,
+      "evaluation": {
+        "h": "0.00199999933333373333304761927",
+        "max_abs_u": "1.0",
+        "nonzero_opposite_links": 0,
+        "positive_internal_coefficients": [
+          false,
+          true,
+          true
+        ],
+        "zero_internal_splits": [
+          false,
+          true,
+          true
+        ],
+        "checks": {
+          "S_lower": {
+            "value": "0.0",
+            "bound": "0.0"
+          },
+          "S_upper": {
+            "value": "0.0",
+            "bound": "0.000009333327111115881477570373707"
+          },
+          "opposite_total": {
+            "value": "0.0",
+            "bound": "0.000005333329777780503701468784975"
+          },
+          "leaf_trace": {
+            "value": "0.0",
+            "bound": "0.00001866665422223176295514074741"
+          },
+          "four_cut_residuals": {
+            "value": "0.0",
+            "bound": "0.009335996887112979139406290985"
+          },
+          "rescaled_S_error": {
+            "value": "0.0",
+            "bound": "0.002693332426667213629237502951"
+          },
+          "cross_block_error": {
+            "value": "0.0",
+            "bound": "0.002667999110222756236655526223"
+          },
+          "internal_block_error": {
+            "value": "1.512731216738014950319543216e-123",
+            "bound": "0.0005033331644445461480753228081"
+          },
+          "variation_nonnegative_0": {
+            "value": "0.0",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_0": {
+            "value": "0.0",
+            "bound": "0.0"
+          },
+          "variation_nonnegative_1": {
+            "value": "0.0",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_1": {
+            "value": "0.0",
+            "bound": "0.0"
+          }
+        },
+        "variations": [
+          {
+            "alpha": 1,
+            "actual_scaled_energy": "0.0",
+            "opposites_omitted_upper": "0.0"
+          },
+          {
+            "alpha": 2,
+            "actual_scaled_energy": "0.0",
+            "opposites_omitted_upper": "0.0"
+          }
+        ],
+        "evidence": "120-digit numerical evaluation; not rigorous interval acceptance"
+      }
+    },
+    {
+      "name": "all_internal_splits_zero",
+      "exact_equilibrium_before_hessian": true,
+      "exact_psd_evidence": {
+        "exact_equilibrium": true,
+        "psd_method": "Disjoint nonnegative 2x2 Laplacian blocks and zero rows",
+        "hessian_rank": 3,
+        "strict_transverse_stability": false
+      },
+      "control_only_below_relevant_degree": true,
+      "evaluation": {
+        "h": "0.00199999933333373333304761927",
+        "max_abs_u": "1.0",
+        "nonzero_opposite_links": 0,
+        "positive_internal_coefficients": [
+          true,
+          true,
+          true
+        ],
+        "zero_internal_splits": [
+          true,
+          true,
+          true
+        ],
+        "checks": {
+          "S_lower": {
+            "value": "0.0",
+            "bound": "0.0"
+          },
+          "S_upper": {
+            "value": "0.0",
+            "bound": "0.000009333327111115881477570373707"
+          },
+          "opposite_total": {
+            "value": "0.0",
+            "bound": "0.000005333329777780503701468784975"
+          },
+          "leaf_trace": {
+            "value": "0.0",
+            "bound": "0.00001866665422223176295514074741"
+          },
+          "four_cut_residuals": {
+            "value": "0.0",
+            "bound": "0.009335996887112979139406290985"
+          },
+          "rescaled_S_error": {
+            "value": "0.0",
+            "bound": "0.002693332426667213629237502951"
+          },
+          "cross_block_error": {
+            "value": "0.0",
+            "bound": "0.002667999110222756236655526223"
+          },
+          "internal_block_error": {
+            "value": "1.512731216738014950319543216e-123",
+            "bound": "0.0005033331644445461480753228081"
+          },
+          "variation_nonnegative_0": {
+            "value": "0.0",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_0": {
+            "value": "0.0",
+            "bound": "0.0"
+          },
+          "variation_nonnegative_1": {
+            "value": "0.0",
+            "bound": "0.0"
+          },
+          "opposites_omitted_above_1": {
+            "value": "0.0",
+            "bound": "0.0"
+          }
+        },
+        "variations": [
+          {
+            "alpha": 1,
+            "actual_scaled_energy": "0.0",
+            "opposites_omitted_upper": "0.0"
+          },
+          {
+            "alpha": 2,
+            "actual_scaled_energy": "0.0",
+            "opposites_omitted_upper": "0.0"
+          }
+        ],
+        "evidence": "120-digit numerical evaluation; not rigorous interval acceptance"
+      }
+    }
+  ],
+  "inequalities_proved_by_written_argument_not_numeric_sampling": true,
+  "full_continuous_reduction_machine_verified": false,
+  "tree_reexecuted": false,
+  "tree_reconstructed": false,
+  "independent_human_review": false,
+  "source_sha256": {
+    "auditoria_paso_variacional.md": "e86f918dfe9e8321caf46d6d53aa60ff5c7f20701465b79819ac2cb0f06d7852",
+    "cota_perfil_general.md": "77376d0b5e485ead8dcfcd2c630eadf866bfd68483da597be255878ad785420c",
+    "cota_flujos_06934.md": "78283427e98bf10da65fed857a87b1fdd9db31812eac2d4f0aa375854053d48f",
+    "cota_minimos_locales_06934.md": "e08bfcca44a7fd88fcb3514f9cfd4e9ea277de8a4c8c488e3e3d03a1db0c21ac",
+    "profile_upper_mass_flow_checks.json": "d7e7e4c866d36d9274ff77cded292e219e644932601a48638de6745a63b6fb97",
+    "one_opposite_link_data.json": "057bf0d88c8e8acbf0b7cb83c76314d382ab29319565726d4f65a9d633022a31",
+    "verify_rational_template.py": "3ba3fe392f8ef6f6121b14430daa46bd6483c658271b84d09516ff272cc3fbee",
+    "profile_upper_certificate_06934-v1.json": "2e0beb78e67adec883d4a5bb9e5feab063958976b3b1253f7c7739db851e84f3"
+  },
+  "verifier_source_sha256": "0d3bf41b1c45c561009489bd400315d0ce0cb273c5d310e67de0859a7833965a",
+  "scope": "Signs, factors and finite numerical controls of the written variational bridge. No derivative assumption, no inverse of the original internal block. Does not prove flow positivity, a nonzero limiting variational vector, novelty or the complete asymptotic theorem."
+}

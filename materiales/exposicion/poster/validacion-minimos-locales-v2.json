@@ -1,0 +1,117 @@
+{
+  "source_sha256": "10c8856c918abdf9df12f33ca97053630ff60adf0485d9ab0d9e60d3e7e5316c",
+  "pdf_sha256": "eb81a3862af6b263f0cb296b86a1791aea75ec6bd97d5b64a3824e80d4aa07bc",
+  "pages": 1,
+  "size_mm": [
+    841.0010555555556,
+    594.0001666666666
+  ],
+  "team_name": "Los Kuramotardos",
+  "affiliation_supplied": false,
+  "compiler_runs": [
+    {
+      "pass": 1,
+      "exit_code": 0,
+      "seconds": 4.125
+    },
+    {
+      "pass": 2,
+      "exit_code": 0,
+      "seconds": 3.7659999999887077
+    }
+  ],
+  "column_heights_pt": [
+    [
+      "A",
+      "970.05418"
+    ],
+    [
+      "B",
+      "995.05247"
+    ],
+    [
+      "C",
+      "1031.95628"
+    ]
+  ],
+  "overfull_boxes": false,
+  "unresolved_references": false,
+  "candidate_path": "C:\\Users\\nehue\\AppData\\Local\\Temp\\kuramoto-poster-local-minima-ac07b74ced114224883d215e4cfc08a4\\poster\\main.pdf",
+  "render_path": "C:\\Users\\nehue\\AppData\\Local\\Temp\\kuramoto-poster-local-minima-ac07b74ced114224883d215e4cfc08a4\\poster\\poster.png",
+  "render_sha256": "9017c1ca92089c24bc6bcd6a06109928c13bdc133a862be8316ea2bb17c15452",
+  "visual_review": {
+    "completed": true,
+    "reviewer": "Codex (OpenAI); same agent, not independent human review",
+    "full_page": true,
+    "three_column_crops": true,
+    "footer_crop": true,
+    "no_overlap_or_clipping_observed": true
+  },
+  "human_mathematical_review": false,
+  "novelty_verified": false,
+  "submitted": false,
+  "glyph_bounds_pt": {
+    "x0": 62.36199999999991,
+    "x1": 2321.5790633999995,
+    "top": 58.78119300000003,
+    "bottom": 1625.39209
+  },
+  "minimum_glyph_margin_mm": 20.59795713888886,
+  "font_warnings": false,
+  "reviewed_render_sha256": {
+    "poster": "9017c1ca92089c24bc6bcd6a06109928c13bdc133a862be8316ea2bb17c15452",
+    "column-a": "13c5b167354d05d7aa17f9069371916fac378c52c41a29263e582d8c50bd0edd",
+    "column-b": "459569477220886ec206b8a4d1950f4ccd89f3ce91da7caf02564f0fcd79ae3b",
+    "column-c": "2e177c3284b31025c139c556b1d01d49008b71f0a59b579afca2aff1c1682c49",
+    "footer": "6a1fcd3327f34afa02efc48578ad30153921b891be7824d8973c8931d50f4602"
+  },
+  "compiler_log_sha256": "c65f599f456fde6152adb670b5f158e74c8a2f386389a45319a64dacb204d5e6",
+  "build_source_sha256": "fb78b1e3f77fe243c489f2b31cce33bedf237f1cb77e679a7071fa75ebe06f71",
+  "mathematical_source_sha256": {
+    "cota_minimos_locales_06934.md": "e08bfcca44a7fd88fcb3514f9cfd4e9ea277de8a4c8c488e3e3d03a1db0c21ac",
+    "cota_flujos_06934.md": "78283427e98bf10da65fed857a87b1fdd9db31812eac2d4f0aa375854053d48f",
+    "cota_perfil_general.md": "77376d0b5e485ead8dcfcd2c630eadf866bfd68483da597be255878ad785420c",
+    "cota_capacidades_agregadas.md": "3a555da4a0800be9795acc39d66c8c142537c5cd3689692574351f86dd6e4e20",
+    "auditoria_paso_variacional.md": "e86f918dfe9e8321caf46d6d53aa60ff5c7f20701465b79819ac2cb0f06d7852",
+    "auditoria_flujos_centros.md": "8312518188941548fed092ddc864f161fe0a5ada99e84bd08de0079cda7205c0",
+    "profile_upper_certificate_06934-v1.json": "2e0beb78e67adec883d4a5bb9e5feab063958976b3b1253f7c7739db851e84f3",
+    "profile_upper_certificate_06934-v1_verification.json": "e5b8f91b568c7f9e4d3945191fe82452e0808fd51506cb5716ca8ae94f2c92ea",
+    "expanded_team_package_validation.json": "7a0f45654b8d900528818924a54c2653c383b03bf6f770956b8929444a4aaa38"
+  },
+  "frozen_sources_sha256": {
+    "exposicion/poster/main.tex": "0dd644ab4797535a5855455ceec70fe909b7213dda4b9eb4b2d63ead9e4ef88e",
+    "exposicion/poster/main-asintotica-v1.tex": "0dd644ab4797535a5855455ceec70fe909b7213dda4b9eb4b2d63ead9e4ef88e",
+    "exposicion/poster/output/pdf/poster-kuramoto.pdf": "94e3bb90e0c85515a5a43a6d11688031f11f01bdff36ab45396a08774b7108c9",
+    "exposicion/poster/validacion.json": "de001007733c6fea19180cb6198ed66b42b7c5c3b296792e9899c63e0e8e16bc",
+    "paquete-revision-asintotica-ampliada-equipo-v2.zip": "160c4a386a7e9c24c25e0176f8c027fb57a1ea1abff34d946f2697ceecb2419e"
+  },
+  "proof_binding": {
+    "certificate_sha256": "2e0beb78e67adec883d4a5bb9e5feab063958976b3b1253f7c7739db851e84f3",
+    "target": "3467/5000",
+    "nodes": 15511,
+    "leaf_counts": {
+      "capacity": 88,
+      "matrix": 2362,
+      "mass_flow_sum": 57,
+      "whole_mass_projection": 1858,
+      "aggregate_cut": 1739,
+      "bernstein_matrix": 1652
+    },
+    "leaves": 7756,
+    "new_mathematical_proof_claimed": false,
+    "prior_separate_verifier_replay_passed": true
+  },
+  "actual_local_minimum_hypothesis": true,
+  "hessian_semidefiniteness_sufficient": false,
+  "cubic_descent_attributed": true,
+  "full_continuous_proof_machine_verified": false,
+  "certificate_rerun_this_poster_turn": false,
+  "mathematical_source_bytes_unchanged": true,
+  "independent_human_review": false,
+  "included_in_frozen_v2_package": false,
+  "final_source": "exposicion/poster/main-minimos-locales-v2.tex",
+  "final_pdf": "exposicion/poster/output/pdf/poster-minimos-locales-v2.pdf",
+  "all_local_layout_and_consistency_checks_passed": true,
+  "scope": "Layout and source consistency of an expanded review poster; not independent mathematical review, novelty, rehearsal, submission or competition outcome.",
+  "coverage_counts_compared_to_replay_report": true
+}

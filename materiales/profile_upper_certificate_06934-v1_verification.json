@@ -1,0 +1,23 @@
+{
+  "covered_root_exactly": true,
+  "all_leaves_verified": true,
+  "target": "3467/5000",
+  "counts": {
+    "boxes": 15511,
+    "splits": 7755,
+    "capacity": 88,
+    "mass_flow_upper": 0,
+    "mass_flow_sum": 57,
+    "whole_mass_projection": 1858,
+    "aggregate_cut": 1739,
+    "central_mass_projection": 0,
+    "variance_scale": 0,
+    "matrix": 2362,
+    "bernstein_matrix": 1652
+  },
+  "max_depth": 42,
+  "minimum_row_margin": "60753273245837217514765697/261612187252500000000000000000000",
+  "certificate_sha256": "2e0beb78e67adec883d4a5bb9e5feab063958976b3b1253f7c7739db851e84f3",
+  "verifier_sha256": "e0d11a9bf28cb903df55d40946e77aa8820aab176ce2cc00e26f2f05b8cd880b",
+  "scope": "Exact replay of covering and rational leaf inequalities. The written reduction is required; not an upper bound on all Kuramoto graphs or independent human review."
+}

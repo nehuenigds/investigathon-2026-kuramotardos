@@ -1,0 +1,58 @@
+{
+  "verified": true,
+  "parameters": {
+    "a": "8427/10000",
+    "b": "101/125",
+    "c": "8427/10000",
+    "k": "8739/50000",
+    "l": "8739/50000",
+    "w": "28993/20000",
+    "z": "1"
+  },
+  "stability_margins": [
+    "373510048310071/500000000000000000",
+    "32144867590071/500000000000000000"
+  ],
+  "covariance_capacity_margins": [
+    "216121/2500000000",
+    "216121/2500000000",
+    "1625883879/2500000000",
+    "1625883879/2500000000"
+  ],
+  "mass_projection": [
+    {
+      "target": "1733/2500",
+      "lower_masses": [
+        "3466/13427",
+        "1733/6540",
+        "3466/13427",
+        "14603991/67135000"
+      ],
+      "strict_margins": {
+        "mass_sum": "26572193/21953145000",
+        "whole_mass_projection": "359657888170242713/4819405753910250000000",
+        "aggregate_cut": "151742483153467/321293716927350000",
+        "central_mass_projection": "124421620438844039/1473824389575000000",
+        "variance_scale": "682798768913121259/481940575391025000000"
+      }
+    },
+    {
+      "target": "69291/100000",
+      "lower_masses": [
+        "69291/268540",
+        "23097/87200",
+        "69291/268540",
+        "583915257/2685400000"
+      ],
+      "strict_margins": {
+        "mass_sum": "476602237/292708600000",
+        "whole_mass_projection": "377673704327219144753/856783245139600000000000",
+        "aggregate_cut": "149235018317782481/171356649027920000000",
+        "central_mass_projection": "66643020542666836477/786039674440000000000",
+        "variance_scale": "179490654023193266979/85678324513960000000000"
+      }
+    }
+  ],
+  "scope": "Strict rational feasible point of the projected necessary inequalities only. No masses, flow matrices, phases, equilibrium, or Hessian witness is supplied. Not a Kuramoto counterexample or a new lower bound.",
+  "source_sha256": "fda2ed3cff69c040ba1bab62f65d2350024a74e770c711e3062caff26863424c"
+}

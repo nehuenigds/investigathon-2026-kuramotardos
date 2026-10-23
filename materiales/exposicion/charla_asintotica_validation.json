@@ -1,0 +1,55 @@
+{
+  "artifactRef": "artifact_HY7aNlQL_1n7Hw_dMGGdRWEk0oBJmy84",
+  "stateVersion": 4,
+  "slides": 15,
+  "targetSeconds": 900,
+  "allBodyTextMatches": true,
+  "allSpeakerNotesMatch": true,
+  "allNativeTableValuesMatch": true,
+  "nativeTableSlides": [
+    3,
+    6,
+    10,
+    12
+  ],
+  "nativeChartSlides": [
+    4
+  ],
+  "outOfCanvasShapes": [],
+  "visualReview": "All 15 slides inspected individually. Changed slides 2,4,7,9,11,14,15 rendered and inspected again; slide 8 had notes-only clarification.",
+  "rehearsed": false,
+  "pptxExported": false,
+  "powerpointOpened": false,
+  "independentHumanReview": false,
+  "source_sha256": {
+    "charla-asintotica.json": "9bb03266d37aa155ec4265c8ab6b01856b8e00b3d604716086bd2b6dfc38ad24",
+    "populate_asymptotic_deck.mjs": "53804119d4de1583e51e0300e9977c5ed9e8f87a696d794c52857d518e0749f0",
+    "guion-15-minutos.md": "01dac00d2b5f4985fa1450a6d4a189ee10d87f83cb81e245c8b5416cf8800c4d",
+    "assets/portada-conceptual.png": "7a08a62a4c2badff08eca1e5eceb6a0c10b6ef6640817e38f9d97c503c365da3"
+  },
+  "legacy_pptx_unchanged": true,
+  "legacy_pptx_sha256": "c65f4f624b536d910d9d3618d14dc9cd8c219444663256d406a1134383365669",
+  "font_family": "Arial",
+  "native_chart_values": {
+    "A": [
+      1,
+      0
+    ],
+    "B": [
+      0,
+      1
+    ],
+    "C": [
+      -1,
+      0
+    ],
+    "W": [
+      0,
+      -1
+    ]
+  },
+  "coverage_counts_match_certificate": true,
+  "focus_selected_by_user": "2026-10-22",
+  "submitted": false,
+  "status": "Editable draft for mathematical and bibliographic review and rehearsal. Not a new universal bound or proof of having won."
+}

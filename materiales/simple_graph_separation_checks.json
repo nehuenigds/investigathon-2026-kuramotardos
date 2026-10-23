@@ -1,0 +1,50 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "test": "exact graph existence and comparison certificate",
+      "passed": true
+    },
+    {
+      "test": "averaging of a non-equitable 14-vertex graph",
+      "passed": true,
+      "toy_is_equilibrium": false,
+      "purpose": "Only algebraic identities; no stability or target-connectivity claim."
+    },
+    {
+      "test": "equal-phase clique completion identity",
+      "passed": true,
+      "purpose": "Gradient unchanged and Hessian difference equals an explicit sum of PSD edge Laplacians."
+    },
+    {
+      "test": "off-by-one minimum degree",
+      "passed": true,
+      "rejected_because": "declared minimum degree"
+    },
+    {
+      "test": "confused connectivity normalizations",
+      "passed": true,
+      "rejected_because": "normalization conversion"
+    },
+    {
+      "test": "wrong graph order",
+      "passed": true,
+      "rejected_because": "graph order"
+    },
+    {
+      "test": "missing diagonal slack",
+      "passed": true,
+      "rejected_because": "only diagonal thinning"
+    },
+    {
+      "test": "changed fixed leaf edge",
+      "passed": true,
+      "rejected_because": "only diagonal thinning"
+    }
+  ],
+  "boundary": "Arithmetic and general aggregation/completion identities checked. Target graphs are existential via the cited lemma; no target edges or shifts generated.",
+  "source_sha256": {
+    "verify_simple_graph_separation.py": "e700f75bf9216ac835d2c889ba9102f63b3e2a9eea905715d5ca223c06c048df",
+    "simple_graph_separation_checks.py": "26b9d11282287a7c36b4e2b7daa073379168744511c5d9e8dd1942f9c19597c6"
+  }
+}

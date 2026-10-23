@@ -1,0 +1,391 @@
+{
+  "title": "Kuramoto: una cota asintótica",
+  "selected_focus": "3467/5000 bound for the positive-limit (2,2,2,1) quarter-turn class",
+  "focus_selected_by_user": "2026-10-22",
+  "artifactRef": "artifact_HY7aNlQL_1n7Hw_dMGGdRWEk0oBJmy84",
+  "slides": [
+    {
+      "slide": 1,
+      "title": "Kuramoto: una cota asintótica",
+      "seconds": 30,
+      "layout": "cover",
+      "body": [],
+      "notes": "Presentamos una cota superior para una clase asintótica de siete clusters cerca de cuatro fases. La conectividad límite superior es menor que 0,6934 bajo las hipótesis que precisaremos. El resultado no determina el umbral general. La construcción de referencia y mu0 se atribuyen a O’Keeffe. El equipo eligió este resultado como foco de defensa. La elección no acredita revisión matemática, novedad ni un ensayo medido. La portada es una ilustración conceptual y no representa una red certificada.",
+      "sources": [
+        "O'Keeffe, Beyond 11/16, arXiv:2610.21271v1, https://arxiv.org/html/2610.21271v1",
+        "cota_flujos_06934.md",
+        "cota_perfil_general.md",
+        "cota_capacidades_agregadas.md",
+        "cota_flujos_por_masa.md",
+        "exposicion/visual_asset.md"
+      ]
+    },
+    {
+      "slide": 2,
+      "title": "El modelo de Kuramoto",
+      "seconds": 55,
+      "layout": "formula",
+      "body": [
+        "θ̇ᵢ = Σⱼ Aᵢⱼ sin(θⱼ − θᵢ)",
+        "E(θ) = Σᵢ<ⱼ Aᵢⱼ [1 − cos(θᵢ − θⱼ)]",
+        "Modelo homogéneo sobre grafos simples no dirigidos",
+        "Conectividad de la propuesta: (δ + 1)/n"
+      ],
+      "notes": "Comenzamos con osciladores idénticos en un grafo simple no dirigido. Al quitar la frecuencia común, su dinámica es el flujo negativo de esta energía. Cada arista aparece una vez. En sincronía las fases son iguales, pero pueden existir otros mínimos locales. La pregunta es cuánta conectividad permite esos estados. La propuesta usa el grado mínimo más uno dividido por n. Otras fuentes usan delta dividido por n menos uno. A orden finito convertimos las expresiones. En sucesiones de orden creciente, sus diferencias con delta sobre n se anulan. No se sustituye grado mínimo por grado promedio.",
+      "sources": [
+        "O'Keeffe, Beyond 11/16, arXiv:2610.21271v1, https://arxiv.org/html/2610.21271v1",
+        "Bullo, Lectures on Network Systems, ed. 1.6, capítulo 17.1–17.2.",
+        "Propuesta local: modelo y normalización."
+      ]
+    },
+    {
+      "slide": 3,
+      "title": "Equilibrio y estabilidad",
+      "seconds": 55,
+      "layout": "table",
+      "body": [
+        "Primero se comprueba el equilibrio",
+        "La rotación global siempre aporta un modo nulo"
+      ],
+      "notes": "El residuo debe anularse antes de clasificar estabilidad. En un equilibrio, el Hessiano es un Laplaciano con pesos que incluyen el coseno de diferencias de fase. La rotación global conserva la energía y da un cero inevitable. Un autovalor transversal negativo implica inestabilidad. Positividad estricta en el complemento de esa rotación da un mínimo estricto módulo rotación. Si quedan ceros adicionales, la semidefinitud sola no decide estabilidad. No exigimos un margen uniforme: en las sucesiones que estudiaremos, el margen puede tender a cero. Por eso los límites degenerados necesitan un tratamiento distinto de los datos finitos.",
+      "sources": [
+        "O'Keeffe, Beyond 11/16, arXiv:2610.21271v1, https://arxiv.org/html/2610.21271v1",
+        "Bullo, capítulo 17, Lema 17.2."
+      ],
+      "table": [
+        [
+          "Hessiano transversal",
+          "Conclusión en equilibrio"
+        ],
+        [
+          "Algún autovalor negativo",
+          "Inestabilidad"
+        ],
+        [
+          "Todos estrictamente positivos",
+          "Mínimo estricto módulo rotación"
+        ],
+        [
+          "Ceros adicionales",
+          "Se necesita análisis adicional"
+        ]
+      ]
+    },
+    {
+      "slide": 4,
+      "title": "Cuatro fases y siete clusters",
+      "seconds": 50,
+      "layout": "quarter",
+      "body": [
+        "A: dos clusters cerca de 0",
+        "B: dos clusters cerca de π/2",
+        "C: dos clusters cerca de π",
+        "W: un cluster cerca de 3π/2",
+        "En el C4 exacto aparecen modos nulos adicionales"
+      ],
+      "notes": "Las cuatro hojas tienen fases separadas por un cuarto de vuelta. Tres hojas se dividen en dos clusters y la última permanece entera. Así aparecen siete masas positivas. El dibujo muestra las cuatro fases límite y no las proporciones de masas. Los estados finitos se acercan a ellas, con separaciones que pueden tener escalas distintas. El estado exactamente C4 tiene conectividad tres cuartos, pero es degenerado. No satisface nuestra hipótesis de Hessiano finito estricto. Por tanto, no constituye una excepción a la cota que presentaremos. La degeneración explica por qué normalizamos la separación antes de tomar límites.",
+      "sources": [
+        "O'Keeffe, Beyond 11/16, arXiv:2610.21271v1, https://arxiv.org/html/2610.21271v1",
+        "cota_flujos_06934.md",
+        "cota_perfil_general.md",
+        "cota_capacidades_agregadas.md",
+        "cota_flujos_por_masa.md"
+      ]
+    },
+    {
+      "slide": 5,
+      "title": "La construcción conocida",
+      "seconds": 60,
+      "layout": "statement",
+      "body": [
+        "μ₀ = 0,692907706369586…",
+        "O’Keeffe construye estados estrictos que se acercan a μ₀",
+        "Su patrón S7 desdobla tres hojas de C4",
+        "Aquí buscamos una cota superior para una clase más amplia"
+      ],
+      "notes": "La constante inferior procede del preprint de O’Keeffe, no de esta investigación. Su familia de estados estrictos se aproxima a mu0 al reducir el desdoblamiento. La fuente analiza un patrón simétrico y prueba la existencia de los estados. En IV.3 aclara que las observaciones de optimalidad de su modelo no son una prueba del umbral general. Nuestra pregunta es distinta: acotar todos los valores límite dentro de una clase de siete clusters que se acercan a cuatro fases, liberando asimetrías y densidades principales. No afirmamos aumentar la constante inferior ni resolver el problema para todos los grafos.",
+      "sources": [
+        "O'Keeffe, Beyond 11/16, arXiv:2610.21271v1, https://arxiv.org/html/2610.21271v1",
+        "optimalidad_global.md"
+      ]
+    },
+    {
+      "slide": 6,
+      "title": "La clase asintótica",
+      "seconds": 65,
+      "layout": "table",
+      "body": [
+        "Plantillas ponderadas: xᵢ > 0, Σxᵢ = 1, Pᵢⱼ = Pⱼᵢ ∈ [0,1]",
+        "μ(T) = minᵢ Σⱼ Pᵢⱼ xⱼ"
+      ],
+      "notes": "Pasamos explícitamente del grafo a plantillas ponderadas. Las masas suman uno y las densidades son simétricas y están entre cero y uno. La conectividad de plantilla es el mínimo de sus grados ponderados. En cada elemento finito exigimos equilibrio exacto y Hessiano positivo fuera de la rotación. Las siete masas convergen a límites positivos y las fases a j por pi medios, con j igual al vector mostrado. Permitimos mitades desiguales, internos incompletos, densidades límite cero y distintas escalas. No cubrimos masas límite nulas u otras geometrías. En grafos, el corolario requiere siete grupos de fase y orden creciente.",
+      "sources": [
+        "cota_flujos_06934.md",
+        "cota_perfil_general.md",
+        "cota_capacidades_agregadas.md",
+        "cota_flujos_por_masa.md"
+      ],
+      "table": [
+        [
+          "Dato",
+          "Hipótesis"
+        ],
+        [
+          "Masas",
+          "xᵢ → x̄ᵢ > 0 para los siete clusters"
+        ],
+        [
+          "Fases",
+          "θᵢ → jᵢπ/2, j = (0,0,1,1,2,2,3)"
+        ],
+        [
+          "Datos finitos",
+          "Equilibrio exacto y Hessiano transversal > 0"
+        ]
+      ]
+    },
+    {
+      "slide": 7,
+      "title": "La cota de esta clase",
+      "seconds": 60,
+      "layout": "bound",
+      "body": [
+        "limsup μ(Tℓ) < 3467/5000 = 0,6934",
+        "Supremo de valores límite en [μ₀, 0,6934]",
+        "Ancho del intervalo < 0,000493",
+        "La cota se limita a las hipótesis de la clase"
+      ],
+      "notes": "Bajo las hipótesis anteriores, el límite superior de conectividades de cada sucesión es estrictamente menor que 3467 sobre 5000. Al hablar del supremo entre todas las sucesiones dejamos el extremo superior cerrado: no afirmamos un margen uniforme adicional ni que se alcance ese extremo. La construcción conocida aporta el extremo inferior mu0. El ancho es menor que 0,000493, comprobado con el intervalo algebraico de referencia. Para grafos de orden creciente, la agregación por promedios da delta sobre n menor o igual que la conectividad de plantilla. Las otras normalizaciones comparten esta cota solo en el límite.",
+      "sources": [
+        "O'Keeffe, Beyond 11/16, arXiv:2610.21271v1, https://arxiv.org/html/2610.21271v1",
+        "cota_flujos_06934.md",
+        "cota_perfil_general.md",
+        "cota_capacidades_agregadas.md",
+        "cota_flujos_por_masa.md",
+        "global_optimum_certificate.json"
+      ]
+    },
+    {
+      "slide": 8,
+      "title": "El equilibrio controla los opuestos",
+      "seconds": 75,
+      "layout": "identity",
+      "body": [
+        "Sₕ = h Σinternos a d sin(hd) − h Σopuestos a d sin(hd) + Rₕ",
+        "Rₕ = Σadyacentes a σ [hd cos(hd) − sin(hd)]",
+        "Restos acotados: Sₕ = O(h²)",
+        "La positividad del Hessiano fuerza opuestos = O(h²)",
+        "La traza sobre hojas da cuatro cancelaciones principales"
+      ],
+      "notes": "Fijamos W y medimos h como la mayor desviación angular respecto de las fases límite. La hipótesis estricta descarta h exactamente cero. Tomamos una subsucesión de los desplazamientos reescalados acotados. Multiplicar el equilibrio por esos desplazamientos produce la identidad exacta de la pantalla. Los restos trigonométricos están acotados y dan S_h de orden h al cuadrado. Al probar positividad con las rotaciones de hojas uno, cero, menos uno, cero y uno, dos, uno, cero, todos los enlaces opuestos quedan del mismo orden. La traza del Hessiano restringido a hojas controla cada corte. No se derivan los datos ni se impone una tasa de convergencia. Aquí a_ij=x_i x_j P_ij, d_ij es la diferencia de offsets reescalados y sigma_ij es el seno de la diferencia de fases base. S_h es la suma adyacente a_ij cos(theta_i−theta_j).",
+      "sources": [
+        "cota_flujos_06934.md",
+        "cota_perfil_general.md",
+        "cota_capacidades_agregadas.md",
+        "cota_flujos_por_masa.md"
+      ]
+    },
+    {
+      "slide": 9,
+      "title": "Tres productos y dos covarianzas",
+      "seconds": 70,
+      "layout": "parameters",
+      "body": [
+        "Flujo de cada corte normalizado a uno",
+        "χᵢ = πᵢ(1 − πᵢ)/Jᵢ,   (a,b,c) = (χA,χB,χC)",
+        "Jᵢ = producto de masas de la pareja,   zᵢ = √Jᵢ kᵢ,   z ≠ 0",
+        "‖z‖² ≥ κ² z_B² + (2b z_B − κ z_A − λ z_C)² + λ² z_B²",
+        "‖z‖² ≥ (2a z_A − κ z_B)² + (κ z_A − λ z_C)² + (2c z_C − λ z_B)²"
+      ],
+      "notes": "Para una contradicción de grado al menos u, con u mayor que dos tercios, los casos de flujo cero se excluyen primero por grado. Solo entonces usamos centros ponderados por flujo para demostrar que el vector variacional z no es nulo. Completar internos se usa como relajación de grado y de pruebas necesarias, sin conservar necesariamente un equilibrio finito. Normalizamos el flujo común a uno. Cada pareja aporta el producto chi y cada transporte entre parejas aporta una covarianza normalizada. Dos formas cuadráticas necesarias de estabilidad quedan descritas por a, b, c, kappa y lambda. Las capacidades de transportes y los grados confinan los tres productos a un cubo compacto. Kappa es el determinante del transporte A–B dividido por la raíz de J_A J_B; lambda se define análogamente para B–C. Las dos desigualdades de la pantalla son las pruebas variacionales necesarias que luego combinamos.",
+      "sources": [
+        "cota_flujos_06934.md",
+        "cota_perfil_general.md",
+        "cota_capacidades_agregadas.md",
+        "cota_flujos_por_masa.md",
+        "verify_covariance_reduction.py"
+      ]
+    },
+    {
+      "slide": 10,
+      "title": "Los flujos ligan masas vecinas",
+      "seconds": 60,
+      "layout": "mass",
+      "body": [
+        "χ M ≤ B",
+        "f₀ + f₁ = 1,   τᵢ = fᵢ/mᵢ,   0 < τᵢ ≤ B",
+        "B − τ₀τ₁(m₀ + m₁) = m₀τ₀(B − τ₁) + m₁τ₁(B − τ₀) ≥ 0"
+      ],
+      "notes": "La mejora clave conserva una relación entre masas vecinas. En una hoja dividida, los dos flujos suman uno. Dividir cada flujo por su masa da tau. El equilibrio principal iguala flujo entrante y saliente, y la capacidad de cada hoja vecina acota ambos tau por su masa B. La identidad escrita es una suma de términos no negativos y da chi por la masa propia menor o igual que la masa vecina. Se obtienen seis restricciones lineales sobre las cuatro masas relativas. No se suponen mitades iguales. Propagarlas estrecha las cotas inferiores de masas utilizadas por los siguientes argumentos de escala.",
+      "sources": [
+        "cota_flujos_06934.md",
+        "cota_perfil_general.md",
+        "cota_capacidades_agregadas.md",
+        "cota_flujos_por_masa.md",
+        "mass_flow_lemma_checks.py"
+      ],
+      "table": [
+        [
+          "Hoja",
+          "Restricciones necesarias"
+        ],
+        [
+          "A",
+          "a yA ≤ yB, yW"
+        ],
+        [
+          "B",
+          "b yB ≤ yA, yC"
+        ],
+        [
+          "C",
+          "c yC ≤ yB, yW"
+        ]
+      ]
+    },
+    {
+      "slide": 11,
+      "title": "Grados y cortes comparten escala",
+      "seconds": 70,
+      "layout": "scale",
+      "body": [
+        "Promedios de grado: N² ≤ 2/D",
+        "Capacidad de cada corte: N² ≥ 4/R²",
+        "Condición necesaria: R² ≥ 2D",
+        "D = maxᵢ Lᵢ(u − Lᵢ),   R = 1 − Lr − Ls",
+        "|κ| ≤ min(√(ab), 1 − √(ab)),   |λ| ≤ min(√(bc), 1 − √(bc))"
+      ],
+      "notes": "Las cotas inferiores L de masas deben ser compatibles entre sí y con que cada masa sea a lo sumo uno menos u. Excluimos primero las que incumplen eso. En el caso restante, la función t por u menos t es creciente en el intervalo usado. Los promedios de grado de las cuatro hojas dan una cota superior para N al cuadrado, donde N es la suma de masas brutas. No igualamos promedio con mínimo. Un corte de flujo uno necesita suficiente capacidad total y da una cota inferior para la misma escala. Combinar ambas produce R al cuadrado mayor o igual que dos D. Las capacidades hacia W añaden otra restricción necesaria.",
+      "sources": [
+        "cota_flujos_06934.md",
+        "cota_perfil_general.md",
+        "cota_capacidades_agregadas.md",
+        "cota_flujos_por_masa.md"
+      ]
+    },
+    {
+      "slide": 12,
+      "title": "La cobertura racional completa",
+      "seconds": 80,
+      "layout": "covering",
+      "body": [
+        "Cubo exacto: [967/1533, 1533/967]³",
+        "15.511 nodos, incluidos todos los bordes y signos"
+      ],
+      "notes": "El dominio de tres productos es compacto bajo la hipotética conectividad 0,6934. El certificado lo biseca de forma racional hasta justificar todas sus hojas. Algunas contradicen restricciones de masas o capacidades. Otras combinan las dos formas necesarias de estabilidad con un coeficiente racional y prueban que la matriz menos la identidad es definida positiva. Eso contradice que el vector z no nulo satisfaga ambas formas. La comparación usa un vector racional positivo. El otro método verifica los menores de Sylvester con coeficientes de Bernstein racionales en todo el rectángulo de covarianzas. Las cotas de raíces se calculan con raíces enteras y amplían el dominio. Ninguna hoja se acepta por un autovalor flotante.",
+      "sources": [
+        "cota_flujos_06934.md",
+        "cota_perfil_general.md",
+        "cota_capacidades_agregadas.md",
+        "cota_flujos_por_masa.md",
+        "profile_upper_certificate_06934-v1.json",
+        "verify_profile_upper_mass_flow.py"
+      ],
+      "table": [
+        [
+          "Justificación",
+          "Hojas"
+        ],
+        [
+          "Masas o capacidades",
+          "3.742"
+        ],
+        [
+          "Comparación racional",
+          "2.362"
+        ],
+        [
+          "Sylvester y Bernstein",
+          "1.652"
+        ],
+        [
+          "Total",
+          "7.756"
+        ]
+      ]
+    },
+    {
+      "slide": 13,
+      "title": "Qué comprueba el certificado",
+      "seconds": 60,
+      "layout": "checks",
+      "body": [
+        "Cobertura completa y desigualdades racionales en cada hoja",
+        "Seis alteraciones del certificado rechazadas",
+        "Tres testigos estrictos conservados en los controles del árbol",
+        "Cuatro testigos previos conservan las 24 desigualdades de masas",
+        "Constructor y verificadores proceden del mismo agente"
+      ],
+      "notes": "El verificador separado reconstruye el cubo, cada bisección y cada hoja. Usa solo Python estándar y no importa el constructor, sus predicados, NumPy ni un solucionador espectral. Los controles rechazan cambios de dominio, ramas o justificaciones. Conservan también testigos finitos válidos y comprueban equilibrio antes de estabilidad. Los ejemplos controlan errores, pero no sustituyen el argumento continuo. Las identidades simbólicas y el intervalo de mu0 se verifican aparte. El paquete pasó cinco órdenes en una copia aislada, manteniendo las huellas. La separación de programas no equivale a revisión humana independiente: ambos proceden de Codex.",
+      "sources": [
+        "cota_flujos_06934.md",
+        "cota_perfil_general.md",
+        "cota_capacidades_agregadas.md",
+        "cota_flujos_por_masa.md",
+        "profile_upper_mass_flow_checks.json",
+        "mass_flow_lemma_checks.json",
+        "profile_upper_mass_flow_kit_validation.json"
+      ]
+    },
+    {
+      "slide": 14,
+      "title": "Lo que la relajación aún permite",
+      "seconds": 65,
+      "layout": "limits",
+      "body": [
+        "Un punto racional satisface la relajación a 0,6932",
+        "No aporta transportes ni un equilibrio certificado de Kuramoto",
+        "Estas desigualdades no bastan para llegar a μ₀",
+        "Hace falta conservar más información de masas y transportes"
+      ],
+      "notes": "La cobertura no sugiere que baste subdividir indefinidamente las mismas cajas hasta alcanzar mu0. Construimos un punto racional que satisface estrictamente las dos formas de estabilidad y todas las condiciones proyectadas usadas, incluso a 0,6932. Esto demuestra una barrera de esa relajación concreta. El punto no contiene masas realizadas, matrices de transporte, fases ni un Hessiano de Kuramoto. No es una nueva cota inferior o un contraejemplo al óptimo de una clase mayor. Para acercar esta vía al valor conocido hacen falta restricciones adicionales. La posibilidad de otras geometrías o masas límite nulas tampoco se resuelve con nuestro teorema.",
+      "sources": [
+        "cota_flujos_06934.md",
+        "cota_perfil_general.md",
+        "cota_capacidades_agregadas.md",
+        "cota_flujos_por_masa.md",
+        "verify_mass_flow_relaxation.py",
+        "mass_flow_relaxation_witness.json"
+      ]
+    },
+    {
+      "slide": 15,
+      "title": "Resultado y revisión pendiente",
+      "seconds": 45,
+      "layout": "closing",
+      "body": [
+        "limsup μ < 0,6934",
+        "Siete masas límite positivas cerca de cuatro fases\nReparto (2,2,2,1), Hessiano finito estricto",
+        "Revisión pendiente: reducción analítica y novedad bibliográfica",
+        "IA: Codex realizó deducciones, código y redacción"
+      ],
+      "notes": "El resultado central es una cota superior asintótica para la clase indicada y un certificado exacto que cualquiera puede reproducir. La construcción inferior conocida mantiene su atribución. La principal revisión pendiente es comprobar la cadena analítica que conecta equilibrios y estabilidad con el dominio certificado, además de contrastar la novedad. No se ha determinado la conectividad crítica general. Codex realizó deducciones, búsquedas, código y redacción, incluidos constructor y verificadores. No hubo subagentes ni revisión humana independiente acreditada. Los textos visibles de IA conservan cortes declarados y no son historiales completos. Estos quince minutos son un objetivo de guion, todavía sin ensayo medido.",
+      "sources": [
+        "cota_flujos_06934.md",
+        "cota_perfil_general.md",
+        "cota_capacidades_agregadas.md",
+        "cota_flujos_por_masa.md",
+        "O'Keeffe, Beyond 11/16, arXiv:2610.21271v1, https://arxiv.org/html/2610.21271v1",
+        "Bitácora.md",
+        "trazabilidad/README.md"
+      ]
+    }
+  ],
+  "target_seconds": 900,
+  "rehearsed": false,
+  "style": {
+    "width": 1280,
+    "height": 720,
+    "font": "Arial",
+    "ink": "#142E43",
+    "teal": "#187B80",
+    "muted": "#54636E",
+    "paper": "#F6F4EF"
+  },
+  "source_sha256": {
+    "cota_flujos_06934.md": "78283427e98bf10da65fed857a87b1fdd9db31812eac2d4f0aa375854053d48f",
+    "profile_upper_certificate_06934-v1.json": "2e0beb78e67adec883d4a5bb9e5feab063958976b3b1253f7c7739db851e84f3",
+    "profile_upper_mass_flow_checks.json": "d7e7e4c866d36d9274ff77cded292e219e644932601a48638de6745a63b6fb97"
+  },
+  "legacy_pptx_unchanged": "output/charla-kuramoto-v12.pptx"
+}

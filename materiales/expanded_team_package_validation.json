@@ -1,0 +1,223 @@
+{
+  "archive": "paquete-revision-asintotica-ampliada-equipo-v2.zip",
+  "bytes": 1950447,
+  "sha256": "160c4a386a7e9c24c25e0176f8c027fb57a1ea1abff34d946f2697ceecb2419e",
+  "members": 107,
+  "payload_files": 106,
+  "all_checks_passed": true,
+  "commands_passed": 16,
+  "runs": [
+    {
+      "script": "verify_review_package.py",
+      "arguments": [
+        "--folder",
+        "."
+      ],
+      "standard_library_only": true,
+      "exit_code": 0,
+      "seconds": 0.4539999999979045,
+      "stdout_sha256": "f442dd83e571da076b2055ed43edbacd7c4a6a7225e66bd67da073fd1f315b45",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "verify_profile_upper_mass_flow.py",
+      "arguments": [],
+      "standard_library_only": true,
+      "exit_code": 0,
+      "seconds": 51.98399999999674,
+      "stdout_sha256": "1989c9b80ee83b7808b26c0c5509b9aa948d8e6f680ea6e771a06a5cd78b3679",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "profile_upper_mass_flow_checks.py",
+      "arguments": [],
+      "standard_library_only": true,
+      "exit_code": 0,
+      "seconds": 43.375,
+      "stdout_sha256": "0ca395bf42e664e1ea011d1c15d84b529124500a9715bd85e74f4014288047e0",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "mass_flow_lemma_checks.py",
+      "arguments": [],
+      "standard_library_only": true,
+      "exit_code": 0,
+      "seconds": 0.2970000000059372,
+      "stdout_sha256": "b2965dc3d28800877afac500526da4b4158a9b7bb75db3bb5e2054706dc3796e",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "verify_covariance_reduction.py",
+      "arguments": [],
+      "standard_library_only": false,
+      "exit_code": 0,
+      "seconds": 3.311999999998079,
+      "stdout_sha256": "b9211b0f547cb5860f79229139752a3169911de531c74450df10ab295ecdfce3",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "verify_global_optimum.py",
+      "arguments": [],
+      "standard_library_only": false,
+      "exit_code": 0,
+      "seconds": 8.968999999997322,
+      "stdout_sha256": "cae5a09521c481dcb2c589d2bd43dbe13cbb1a061ef989c0ac9b73a68e5f3b0a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "verify_quarter_turn_local_minima.py",
+      "arguments": [],
+      "standard_library_only": false,
+      "exit_code": 0,
+      "seconds": 2.7030000000013388,
+      "stdout_sha256": "c32daba978471b600191f8c3e4c524b6414b051de5c63816c89b5e0e9ec43fb6",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "verify_variational_bridge.py",
+      "arguments": [],
+      "standard_library_only": false,
+      "exit_code": 0,
+      "seconds": 2.7810000000026776,
+      "stdout_sha256": "3dfc3e1c6db0fabd174de374c57967d92407ad1c61624040e92db766cd08c865",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "verify_flow_centers.py",
+      "arguments": [],
+      "standard_library_only": false,
+      "exit_code": 0,
+      "seconds": 2.5469999999986612,
+      "stdout_sha256": "319af602bf46e4de0155847d69c33abef2076e6ed26d8facbaf68bd990ac8e29",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "fixed_geometry_checks.py",
+      "arguments": [],
+      "standard_library_only": true,
+      "exit_code": 0,
+      "seconds": 0.375,
+      "stdout_sha256": "373359fede0bf610809d65e24cf83e38f978e023af9a6517ae78545c9b9474aa",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "verify_pattern_obstruction.py",
+      "arguments": [],
+      "standard_library_only": true,
+      "exit_code": 0,
+      "seconds": 0.2969999999986612,
+      "stdout_sha256": "2e648ab5e9f7e20640a0538fe396f2d28c26b25494f13be8720d8a0323eb7446",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "verify_simple_graph_separation.py",
+      "arguments": [],
+      "standard_library_only": true,
+      "exit_code": 0,
+      "seconds": 0.28100000000267755,
+      "stdout_sha256": "67f25eb23f0f0d8e73eb858f5e3771fa79e7c5fdf5a69a92db1a78491123c585",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "simple_graph_separation_checks.py",
+      "arguments": [],
+      "standard_library_only": true,
+      "exit_code": 0,
+      "seconds": 0.4379999999946449,
+      "stdout_sha256": "e3140b402c731717c474a3f58f19dcfb7c017c403a6ea1829c28ad7a60e8f43a",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "verificar_historial_visible_v3.py",
+      "arguments": [
+        "--folder",
+        "trazabilidad/chat-visible-20261022-v1"
+      ],
+      "standard_library_only": true,
+      "exit_code": 0,
+      "seconds": 0.25,
+      "stdout_sha256": "0815a7226b5a12b5eaa7504429026a18aa68b2087b6742ce485481b2d4a69348",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "verificar_historial_visible_v3.py",
+      "arguments": [
+        "--folder",
+        "trazabilidad/preparacion-visible-20261022-v1"
+      ],
+      "standard_library_only": true,
+      "exit_code": 0,
+      "seconds": 0.2190000000045984,
+      "stdout_sha256": "5b31087c1093c5609511547137386efbeb4a3c3e65a6c5775bf419ea5207abe6",
+      "stderr_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "script": "test_historial_visible_v3.py",
+      "arguments": [
+        "--temp-parent",
+        "C:\\Users\\nehue\\AppData\\Local\\Temp\\kuramoto-expanded-package-7b503563848e4b148c85cc593328b357"
+      ],
+      "standard_library_only": true,
+      "exit_code": 0,
+      "seconds": 0.4530000000013388,
+      "stdout_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "stderr_sha256": "a7083af566e86cbe22772151b6fca3f8ebd5e54b15b65a53b075122112189e1f"
+    }
+  ],
+  "isolated_payload_unchanged": true,
+  "sources_unchanged_during_build": true,
+  "project_bindings_checked_before_build": 50,
+  "previous_artifacts_unchanged": {
+    "paquete-revision-asintotica-equipo-v1.zip": "2a1c83715276ee8135a6ee43cdbe94c9bda44215e2b0711e6db986c102de199d",
+    "paquete-revision-perfil-equipo-v1.zip": "facc348c45c8ae26b931182273d129034f1d17176a7d6ef970204235abbfcb93",
+    "paquete-revision-grafos-equipo-v1.zip": "9ba19efc402675fe83929b0b35db6e864621ed8ebfd61381920aa16aef377c5e",
+    "kit-cota-flujos-06934-v1.zip": "b462d76bb9b7f41704246017a15b62a6f7f5f5fafd8cebfb36d3689b5fcdd4ab",
+    "informe/main.tex": "0a0be925f9f10a9b62852bf8e58a9239608c58d8d3f8d8bcd1f0594d0248a573",
+    "informe/output/pdf/informe-kuramoto.pdf": "1e953ca3d1a5ebbc5b80617e0687e057868acf6f02be1c17339800d810481df2",
+    "informe/output/pdf/informe-minimos-locales-v2.pdf": "6cf55f2388be4bd4ed95f5747cd58feb9534b252af86982e87cb41c8f5a9b0c7",
+    "exposicion/output/charla-kuramoto-v12.pptx": "c65f4f624b536d910d9d3618d14dc9cd8c219444663256d406a1134383365669",
+    "exposicion/poster/output/pdf/poster-kuramoto.pdf": "94e3bb90e0c85515a5a43a6d11688031f11f01bdff36ab45396a08774b7108c9",
+    "exposicion/charla-asintotica.json": "9bb03266d37aa155ec4265c8ab6b01856b8e00b3d604716086bd2b6dfc38ad24"
+  },
+  "temporary_parent": "C:\\Users\\nehue\\AppData\\Local\\Temp\\kuramoto-expanded-package-7b503563848e4b148c85cc593328b357",
+  "symbolic_dependencies": "Existing external cache; five scientific commands use SymPy/mpmath. No fresh installation tested.",
+  "math_tree_replayed": true,
+  "tree_builder_reexecuted": false,
+  "search_reexecuted": false,
+  "existence_graph_plan_recomputed": true,
+  "media_rebuilt": false,
+  "histories": {
+    "messages": [
+      159,
+      20
+    ],
+    "user_authorized_visible_messages_only": true,
+    "cutoffs_extended": false,
+    "current_packaging_turn_covered": false,
+    "other_chats_covered": false
+  },
+  "expanded_review_report_pages": 5,
+  "talk_and_poster_keep_strict_hypothesis": true,
+  "team_proof_reviewed": false,
+  "independent_human_review": false,
+  "rehearsed": false,
+  "submitted": false,
+  "goal_won_verified": false,
+  "builder_sha256": "bca3cee04c13007321f4beebfdb0f80c70b1099bdcac0f63a764dac79eebd773",
+  "post_build_content_audit": {
+    "expanded_hypothesis_present_in_report": true,
+    "visible_message_jsonl_files": 2,
+    "poster_pages": 1,
+    "primary_guide_matches_LEEME": true,
+    "portable_archive_integrity_command_passed": true,
+    "original_report_pages": 4,
+    "manifest_and_each_member_verified": true,
+    "expanded_report_pages": 5,
+    "cache_or_compiler_auxiliaries_included": false,
+    "manifest_checker_tamper_controls_rejected": [
+      "changed_payload",
+      "omitted_member",
+      "unsafe_member_path"
+    ]
+  }
+}

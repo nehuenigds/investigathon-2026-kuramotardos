@@ -1,0 +1,69 @@
+{
+  "format": "messages-only-addendum-v1",
+  "created_utc": "2026-10-23T15:12:45.415851+00:00",
+  "visible_messages_only": true,
+  "raw_sessions_included": false,
+  "previous_package_sha256": "8423fea94faa2e2d875d80455b86561cd7d122dc27d1198c3996cecf59fd0264",
+  "previous_main_messages": 159,
+  "new_main_messages": 217,
+  "new_messages": 58,
+  "preparation_messages_unchanged": 20,
+  "files": {
+    "LEEME.md": {
+      "bytes": 4486,
+      "sha256": "314326d46811bf8d1bab7d26c819df7d2fdc9fa10811e261c34f62ace8022543"
+    },
+    "adenda_historial_visible.md": {
+      "bytes": 4486,
+      "sha256": "314326d46811bf8d1bab7d26c819df7d2fdc9fa10811e261c34f62ace8022543"
+    },
+    "adenda_historial_visible.py": {
+      "bytes": 10325,
+      "sha256": "0a4e7cb3f86f10c2190df08b4193c943163eb860c95b26336a7ac390f5bac657"
+    },
+    "exportar_historial_visible_v3.py": {
+      "bytes": 9693,
+      "sha256": "4e960e92a5f6a7e0aafad34f4e935e45516321077bfa7d29187502deeb9de70f"
+    },
+    "test_historial_visible_v3.py": {
+      "bytes": 6489,
+      "sha256": "433d5164722ce18653ce3145eb2ff97a11db24907e25d77bed35b7174110dbe3"
+    },
+    "trazabilidad/chat-visible-20261023-v1/MANIFEST.json": {
+      "bytes": 341,
+      "sha256": "b9c4f39b486fb1b6c81fa2bf0c6cd488018d9a15cd4129df3bf2632cd5c012ca"
+    },
+    "trazabilidad/chat-visible-20261023-v1/cobertura.json": {
+      "bytes": 1167,
+      "sha256": "d793c9ba8c4af37daa25032d9f76304d7faa4d8db94511069cb0712c95589d66"
+    },
+    "trazabilidad/chat-visible-20261023-v1/mensajes.jsonl": {
+      "bytes": 109679,
+      "sha256": "9ea1b55ac778f5d8af358c8d70decce812261ed7073ed93b90a56794084cec95"
+    },
+    "trazabilidad/chat-visible-20261023-v1/transcripcion.md": {
+      "bytes": 77880,
+      "sha256": "203c63bdd9d187aeb48732553957deb7be01e372f2aa404668402c2e75f1385c"
+    },
+    "trazabilidad/preparacion-visible-20261022-v1/MANIFEST.json": {
+      "bytes": 339,
+      "sha256": "dc9870665f75f8dcb0652b24fdd3182274a04c2157cdef17eb6396cc777292c6"
+    },
+    "trazabilidad/preparacion-visible-20261022-v1/cobertura.json": {
+      "bytes": 1166,
+      "sha256": "09d9702fa259e717a8067b552bf9d3f155b12f026f5ab47f1aa8f47b47195875"
+    },
+    "trazabilidad/preparacion-visible-20261022-v1/mensajes.jsonl": {
+      "bytes": 11028,
+      "sha256": "136cdc45a5d789f878750c41dbf5256c53b9e449bec70fa282f4dded0c37b253"
+    },
+    "trazabilidad/preparacion-visible-20261022-v1/transcripcion.md": {
+      "bytes": 8400,
+      "sha256": "33e3ba827f664b1c99780e5f734dbc8cc03770bda3ef52e14a5df292be43c664"
+    },
+    "verificar_historial_visible_v3.py": {
+      "bytes": 3770,
+      "sha256": "9da8269f6c06a962d09828bbcc19e2bc7ac7191c3f33f4523547f174c56053c6"
+    }
+  }
+}

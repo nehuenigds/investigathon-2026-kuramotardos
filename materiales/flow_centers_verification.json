@@ -1,0 +1,757 @@
+{
+  "symbolic_checks": {
+    "all_assertions_passed": true,
+    "balanced_transport_node_identities": 7,
+    "cut_equals_difference_of_flow_moments": 4,
+    "cut_independent_of_transport_covariance": true,
+    "offset_reconstruction": true,
+    "coordinate_map_determinant": "T**3",
+    "energy_scale_identity": true,
+    "target_constants_exact": true
+  },
+  "retained_profiles_with_existing_finite_witnesses": [
+    {
+      "fixture_index": 1,
+      "exact_finite_equilibrium_before_ldl": true,
+      "principal_control": {
+        "completed_principal_mu": "2650567349431/3825284500000",
+        "total_flow": "3301134698862/58531206023761",
+        "individual_flows": [
+          "3301134698862/292656030118805",
+          "13204538795448/292656030118805",
+          "13204538795448/292656030118805",
+          "3301134698862/292656030118805",
+          "3301134698862/292656030118805",
+          "13204538795448/292656030118805",
+          "3301134698862/58531206023761"
+        ],
+        "high_degree_bound": {
+          "threshold": "2650567349431/3825284500000",
+          "flow_per_mass_lower": "737925099431/3825284500000",
+          "individual_flow_margins": [
+            "349434301138/292656030118805",
+            "1397737204552/292656030118805",
+            "1397737204552/292656030118805",
+            "349434301138/292656030118805",
+            "349434301138/292656030118805",
+            "1397737204552/292656030118805",
+            "432571055988273761/29265603011880500000"
+          ],
+          "total_flow_lower": "737925099431/15301138000000",
+          "total_flow_upper": "1/16"
+        },
+        "zero_adjacent_entries": 0,
+        "flow_centers": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "nonzero_widths": 3,
+        "max_abs_width": "5/4",
+        "z_norm_squared": "988795341321000000000000/28609780826314029231128281",
+        "z_norm_squared_lower": "640000000000/58531206023761",
+        "scaled_z_norm_squared": "164799223553500000000000/268929876979474640046117",
+        "positive_chi": [
+          "1650567349431/2000000000000",
+          "1650567349431/2000000000000",
+          "1650567349431/2000000000000"
+        ],
+        "exact_arithmetic": "fractions only"
+      }
+    },
+    {
+      "fixture_index": 2,
+      "exact_finite_equilibrium_before_ldl": true,
+      "principal_control": {
+        "completed_principal_mu": "2650567349431/3825284500000",
+        "total_flow": "3301134698862/58531206023761",
+        "individual_flows": [
+          "1650567349431/58531206023761",
+          "1650567349431/58531206023761",
+          "1650567349431/58531206023761",
+          "1650567349431/58531206023761",
+          "1650567349431/58531206023761",
+          "1650567349431/58531206023761",
+          "3301134698862/58531206023761"
+        ],
+        "high_degree_bound": {
+          "threshold": "2650567349431/3825284500000",
+          "flow_per_mass_lower": "737925099431/3825284500000",
+          "individual_flow_margins": [
+            "174717150569/58531206023761",
+            "174717150569/58531206023761",
+            "174717150569/58531206023761",
+            "174717150569/58531206023761",
+            "174717150569/58531206023761",
+            "174717150569/58531206023761",
+            "432571055988273761/29265603011880500000"
+          ],
+          "total_flow_lower": "737925099431/15301138000000",
+          "total_flow_upper": "1/16"
+        },
+        "zero_adjacent_entries": 0,
+        "flow_centers": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "nonzero_widths": 3,
+        "max_abs_width": "2",
+        "z_norm_squared": "3955181365284000000000000/28609780826314029231128281",
+        "z_norm_squared_lower": "1000000000000/58531206023761",
+        "scaled_z_norm_squared": "659196894214000000000000/268929876979474640046117",
+        "positive_chi": [
+          "1650567349431/2000000000000",
+          "1650567349431/2000000000000",
+          "1650567349431/2000000000000"
+        ],
+        "exact_arithmetic": "fractions only"
+      }
+    },
+    {
+      "fixture_index": 3,
+      "exact_finite_equilibrium_before_ldl": true,
+      "principal_control": {
+        "completed_principal_mu": "2650567349431/3825284500000",
+        "total_flow": "3301134698862/58531206023761",
+        "individual_flows": [
+          "13204538795448/292656030118805",
+          "3301134698862/292656030118805",
+          "3301134698862/292656030118805",
+          "13204538795448/292656030118805",
+          "13204538795448/292656030118805",
+          "3301134698862/292656030118805",
+          "3301134698862/58531206023761"
+        ],
+        "high_degree_bound": {
+          "threshold": "2650567349431/3825284500000",
+          "flow_per_mass_lower": "737925099431/3825284500000",
+          "individual_flow_margins": [
+            "1397737204552/292656030118805",
+            "349434301138/292656030118805",
+            "349434301138/292656030118805",
+            "1397737204552/292656030118805",
+            "1397737204552/292656030118805",
+            "349434301138/292656030118805",
+            "432571055988273761/29265603011880500000"
+          ],
+          "total_flow_lower": "737925099431/15301138000000",
+          "total_flow_upper": "1/16"
+        },
+        "zero_adjacent_entries": 0,
+        "flow_centers": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "nonzero_widths": 3,
+        "max_abs_width": "5/4",
+        "z_norm_squared": "988795341321000000000000/28609780826314029231128281",
+        "z_norm_squared_lower": "640000000000/58531206023761",
+        "scaled_z_norm_squared": "164799223553500000000000/268929876979474640046117",
+        "positive_chi": [
+          "1650567349431/2000000000000",
+          "1650567349431/2000000000000",
+          "1650567349431/2000000000000"
+        ],
+        "exact_arithmetic": "fractions only"
+      }
+    },
+    {
+      "fixture_index": 4,
+      "exact_finite_equilibrium_before_ldl": true,
+      "principal_control": {
+        "completed_principal_mu": "490/1443",
+        "total_flow": "25/1369",
+        "individual_flows": [
+          "10/1369",
+          "15/1369",
+          "15/1369",
+          "10/1369",
+          "25/4107",
+          "50/4107",
+          "25/1369"
+        ],
+        "high_degree_bound": null,
+        "zero_adjacent_entries": 0,
+        "flow_centers": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "nonzero_widths": 3,
+        "max_abs_width": "5/3",
+        "z_norm_squared": "323125/3219888",
+        "z_norm_squared_lower": "91/5476",
+        "scaled_z_norm_squared": "12925/2352",
+        "positive_chi": [
+          "1/5",
+          "8/33",
+          "200/819"
+        ],
+        "exact_arithmetic": "fractions only"
+      }
+    }
+  ],
+  "synthetic_partial_condition_controls": [
+    {
+      "kind": "full principal transport",
+      "width_support_mask": 1,
+      "finite_equilibrium_or_stability_claimed": false,
+      "principal_control": {
+        "completed_principal_mu": "3/4",
+        "total_flow": "1/16",
+        "individual_flows": [
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/16"
+        ],
+        "high_degree_bound": {
+          "threshold": "3467/5000",
+          "flow_per_mass_lower": "967/5000",
+          "individual_flow_margins": [
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/20000"
+          ],
+          "total_flow_lower": "967/20000",
+          "total_flow_upper": "1/16"
+        },
+        "zero_adjacent_entries": 0,
+        "flow_centers": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "nonzero_widths": 1,
+        "max_abs_width": "2",
+        "z_norm_squared": "1/16",
+        "z_norm_squared_lower": "1/64",
+        "scaled_z_norm_squared": "1",
+        "positive_chi": [
+          "1",
+          "1",
+          "1"
+        ],
+        "exact_arithmetic": "fractions only"
+      }
+    },
+    {
+      "kind": "full principal transport",
+      "width_support_mask": 2,
+      "finite_equilibrium_or_stability_claimed": false,
+      "principal_control": {
+        "completed_principal_mu": "3/4",
+        "total_flow": "1/16",
+        "individual_flows": [
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/16"
+        ],
+        "high_degree_bound": {
+          "threshold": "3467/5000",
+          "flow_per_mass_lower": "967/5000",
+          "individual_flow_margins": [
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/20000"
+          ],
+          "total_flow_lower": "967/20000",
+          "total_flow_upper": "1/16"
+        },
+        "zero_adjacent_entries": 0,
+        "flow_centers": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "nonzero_widths": 1,
+        "max_abs_width": "2",
+        "z_norm_squared": "1/16",
+        "z_norm_squared_lower": "1/64",
+        "scaled_z_norm_squared": "1",
+        "positive_chi": [
+          "1",
+          "1",
+          "1"
+        ],
+        "exact_arithmetic": "fractions only"
+      }
+    },
+    {
+      "kind": "full principal transport",
+      "width_support_mask": 3,
+      "finite_equilibrium_or_stability_claimed": false,
+      "principal_control": {
+        "completed_principal_mu": "3/4",
+        "total_flow": "1/16",
+        "individual_flows": [
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/16"
+        ],
+        "high_degree_bound": {
+          "threshold": "3467/5000",
+          "flow_per_mass_lower": "967/5000",
+          "individual_flow_margins": [
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/20000"
+          ],
+          "total_flow_lower": "967/20000",
+          "total_flow_upper": "1/16"
+        },
+        "zero_adjacent_entries": 0,
+        "flow_centers": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "nonzero_widths": 2,
+        "max_abs_width": "2",
+        "z_norm_squared": "1/8",
+        "z_norm_squared_lower": "1/64",
+        "scaled_z_norm_squared": "2",
+        "positive_chi": [
+          "1",
+          "1",
+          "1"
+        ],
+        "exact_arithmetic": "fractions only"
+      }
+    },
+    {
+      "kind": "full principal transport",
+      "width_support_mask": 4,
+      "finite_equilibrium_or_stability_claimed": false,
+      "principal_control": {
+        "completed_principal_mu": "3/4",
+        "total_flow": "1/16",
+        "individual_flows": [
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/16"
+        ],
+        "high_degree_bound": {
+          "threshold": "3467/5000",
+          "flow_per_mass_lower": "967/5000",
+          "individual_flow_margins": [
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/20000"
+          ],
+          "total_flow_lower": "967/20000",
+          "total_flow_upper": "1/16"
+        },
+        "zero_adjacent_entries": 0,
+        "flow_centers": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "nonzero_widths": 1,
+        "max_abs_width": "2",
+        "z_norm_squared": "1/16",
+        "z_norm_squared_lower": "1/64",
+        "scaled_z_norm_squared": "1",
+        "positive_chi": [
+          "1",
+          "1",
+          "1"
+        ],
+        "exact_arithmetic": "fractions only"
+      }
+    },
+    {
+      "kind": "full principal transport",
+      "width_support_mask": 5,
+      "finite_equilibrium_or_stability_claimed": false,
+      "principal_control": {
+        "completed_principal_mu": "3/4",
+        "total_flow": "1/16",
+        "individual_flows": [
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/16"
+        ],
+        "high_degree_bound": {
+          "threshold": "3467/5000",
+          "flow_per_mass_lower": "967/5000",
+          "individual_flow_margins": [
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/20000"
+          ],
+          "total_flow_lower": "967/20000",
+          "total_flow_upper": "1/16"
+        },
+        "zero_adjacent_entries": 0,
+        "flow_centers": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "nonzero_widths": 2,
+        "max_abs_width": "2",
+        "z_norm_squared": "1/8",
+        "z_norm_squared_lower": "1/64",
+        "scaled_z_norm_squared": "2",
+        "positive_chi": [
+          "1",
+          "1",
+          "1"
+        ],
+        "exact_arithmetic": "fractions only"
+      }
+    },
+    {
+      "kind": "full principal transport",
+      "width_support_mask": 6,
+      "finite_equilibrium_or_stability_claimed": false,
+      "principal_control": {
+        "completed_principal_mu": "3/4",
+        "total_flow": "1/16",
+        "individual_flows": [
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/16"
+        ],
+        "high_degree_bound": {
+          "threshold": "3467/5000",
+          "flow_per_mass_lower": "967/5000",
+          "individual_flow_margins": [
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/20000"
+          ],
+          "total_flow_lower": "967/20000",
+          "total_flow_upper": "1/16"
+        },
+        "zero_adjacent_entries": 0,
+        "flow_centers": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "nonzero_widths": 2,
+        "max_abs_width": "2",
+        "z_norm_squared": "1/8",
+        "z_norm_squared_lower": "1/64",
+        "scaled_z_norm_squared": "2",
+        "positive_chi": [
+          "1",
+          "1",
+          "1"
+        ],
+        "exact_arithmetic": "fractions only"
+      }
+    },
+    {
+      "kind": "full principal transport",
+      "width_support_mask": 7,
+      "finite_equilibrium_or_stability_claimed": false,
+      "principal_control": {
+        "completed_principal_mu": "3/4",
+        "total_flow": "1/16",
+        "individual_flows": [
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/32",
+          "1/16"
+        ],
+        "high_degree_bound": {
+          "threshold": "3467/5000",
+          "flow_per_mass_lower": "967/5000",
+          "individual_flow_margins": [
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/40000",
+            "283/20000"
+          ],
+          "total_flow_lower": "967/20000",
+          "total_flow_upper": "1/16"
+        },
+        "zero_adjacent_entries": 0,
+        "flow_centers": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "nonzero_widths": 3,
+        "max_abs_width": "2",
+        "z_norm_squared": "3/16",
+        "z_norm_squared_lower": "1/64",
+        "scaled_z_norm_squared": "3",
+        "positive_chi": [
+          "1",
+          "1",
+          "1"
+        ],
+        "exact_arithmetic": "fractions only"
+      }
+    },
+    {
+      "kind": "principal transport with two zero entries",
+      "width_support_mask": 1,
+      "finite_equilibrium_or_stability_claimed": false,
+      "principal_control": {
+        "completed_principal_mu": "17/25",
+        "total_flow": "99/1805",
+        "individual_flows": [
+          "99/9025",
+          "396/9025",
+          "396/9025",
+          "99/9025",
+          "99/9025",
+          "396/9025",
+          "99/1805"
+        ],
+        "high_degree_bound": {
+          "threshold": "2/3",
+          "flow_per_mass_lower": "1/6",
+          "individual_flow_margins": [
+            "119/54150",
+            "238/27075",
+            "238/27075",
+            "119/54150",
+            "119/54150",
+            "238/27075",
+            "107/5415"
+          ],
+          "total_flow_lower": "1/24",
+          "total_flow_upper": "1/16"
+        },
+        "zero_adjacent_entries": 2,
+        "flow_centers": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "nonzero_widths": 1,
+        "max_abs_width": "5/4",
+        "z_norm_squared": "25/1444",
+        "z_norm_squared_lower": "4/361",
+        "scaled_z_norm_squared": "125/396",
+        "positive_chi": [
+          "99/125",
+          "99/125",
+          "99/125"
+        ],
+        "exact_arithmetic": "fractions only"
+      }
+    },
+    {
+      "kind": "principal transport with two zero entries",
+      "width_support_mask": 3,
+      "finite_equilibrium_or_stability_claimed": false,
+      "principal_control": {
+        "completed_principal_mu": "17/25",
+        "total_flow": "99/1805",
+        "individual_flows": [
+          "99/9025",
+          "396/9025",
+          "396/9025",
+          "99/9025",
+          "99/9025",
+          "396/9025",
+          "99/1805"
+        ],
+        "high_degree_bound": {
+          "threshold": "2/3",
+          "flow_per_mass_lower": "1/6",
+          "individual_flow_margins": [
+            "119/54150",
+            "238/27075",
+            "238/27075",
+            "119/54150",
+            "119/54150",
+            "238/27075",
+            "107/5415"
+          ],
+          "total_flow_lower": "1/24",
+          "total_flow_upper": "1/16"
+        },
+        "zero_adjacent_entries": 2,
+        "flow_centers": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "nonzero_widths": 2,
+        "max_abs_width": "5/4",
+        "z_norm_squared": "25/722",
+        "z_norm_squared_lower": "4/361",
+        "scaled_z_norm_squared": "125/198",
+        "positive_chi": [
+          "99/125",
+          "99/125",
+          "99/125"
+        ],
+        "exact_arithmetic": "fractions only"
+      }
+    },
+    {
+      "kind": "principal transport with two zero entries",
+      "width_support_mask": 7,
+      "finite_equilibrium_or_stability_claimed": false,
+      "principal_control": {
+        "completed_principal_mu": "17/25",
+        "total_flow": "99/1805",
+        "individual_flows": [
+          "99/9025",
+          "396/9025",
+          "396/9025",
+          "99/9025",
+          "99/9025",
+          "396/9025",
+          "99/1805"
+        ],
+        "high_degree_bound": {
+          "threshold": "2/3",
+          "flow_per_mass_lower": "1/6",
+          "individual_flow_margins": [
+            "119/54150",
+            "238/27075",
+            "238/27075",
+            "119/54150",
+            "119/54150",
+            "238/27075",
+            "107/5415"
+          ],
+          "total_flow_lower": "1/24",
+          "total_flow_upper": "1/16"
+        },
+        "zero_adjacent_entries": 2,
+        "flow_centers": [
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "nonzero_widths": 3,
+        "max_abs_width": "5/4",
+        "z_norm_squared": "75/1444",
+        "z_norm_squared_lower": "4/361",
+        "scaled_z_norm_squared": "125/132",
+        "positive_chi": [
+          "99/125",
+          "99/125",
+          "99/125"
+        ],
+        "exact_arithmetic": "fractions only"
+      }
+    }
+  ],
+  "rejections": [
+    {
+      "name": "unbalanced adjacent flow",
+      "reason": "principal node balance"
+    },
+    {
+      "name": "nonzero individual cut",
+      "reason": "individual principal leaf cuts"
+    },
+    {
+      "name": "zero normalized offset vector",
+      "reason": "offset normalization"
+    },
+    {
+      "name": "total flow zero at claimed high degree",
+      "reason": "degree threshold"
+    },
+    {
+      "name": "one half flow zero at claimed high degree",
+      "reason": "degree threshold"
+    }
+  ],
+  "retained_finite_equilibria_checked": 4,
+  "synthetic_principal_controls": 10,
+  "rejections_checked": 5,
+  "all_rational_controls_passed": true,
+  "floating_point_used_for_acceptance": false,
+  "target_threshold": "3467/5000",
+  "target_flow_per_mass_lower": "967/5000",
+  "target_total_flow_lower": "967/20000",
+  "universal_total_flow_upper": "1/16",
+  "normalization_and_limit_extraction_machine_verified": false,
+  "independent_human_review": false,
+  "tree_reexecuted": false,
+  "source_sha256": {
+    "auditoria_flujos_centros.md": "8312518188941548fed092ddc864f161fe0a5ada99e84bd08de0079cda7205c0",
+    "auditoria_paso_variacional.md": "e86f918dfe9e8321caf46d6d53aa60ff5c7f20701465b79819ac2cb0f06d7852",
+    "cota_perfil_general.md": "77376d0b5e485ead8dcfcd2c630eadf866bfd68483da597be255878ad785420c",
+    "cota_flujos_06934.md": "78283427e98bf10da65fed857a87b1fdd9db31812eac2d4f0aa375854053d48f",
+    "general_quarter_profile_checks.json": "2ab9f731f9aacf843f020e4e72b6c0a217420836e00ecadafba085fb74b87958",
+    "verify_rational_template.py": "3ba3fe392f8ef6f6121b14430daa46bd6483c658271b84d09516ff272cc3fbee",
+    "profile_upper_certificate_06934-v1.json": "2e0beb78e67adec883d4a5bb9e5feab063958976b3b1253f7c7739db851e84f3"
+  },
+  "verifier_source_sha256": "60cfcfcda66d7a73b53242f3e3e1824610eec1bb8c03d1297ccd1ddee397a723",
+  "scope": "Exact algebra and rational controls of balanced principal flows, cut moments, zero cases and nonzero width direction. Synthetic controls do not claim finite equilibrium or stability and are not verified against all conditions of the asymptotic theorem. Written proof supplies the continuous limiting argument."
+}

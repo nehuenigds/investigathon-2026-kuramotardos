@@ -1,0 +1,41 @@
+{
+  "pages": 4,
+  "max_pages": 5,
+  "source_sha256": "0a0be925f9f10a9b62852bf8e58a9239608c58d8d3f8d8bcd1f0594d0248a573",
+  "pdf_sha256": "1e953ca3d1a5ebbc5b80617e0687e057868acf6f02be1c17339800d810481df2",
+  "unresolved_references": false,
+  "overfull_boxes": false,
+  "compiler_runs": [
+    {
+      "pass": 1,
+      "exit_code": 0,
+      "seconds": 3.110000000000582
+    },
+    {
+      "pass": 2,
+      "exit_code": 0,
+      "seconds": 2.937000000001717
+    }
+  ],
+  "ai_declaration_present": true,
+  "status": "Draft pending independent mathematical and bibliographic review; not submitted",
+  "version": "Selected focus: asymptotic 3467/5000 upper bound; finite pattern separation retained as a complement.",
+  "visual_review": "All four pages inspected individually. After final reproduction-order edits, pages 1 and 2 retained identical raster hashes and pages 3 and 4 were inspected again. No overlap or clipping observed.",
+  "page_render_sha256": {
+    "1": "75993b3e129da14d5feda2542f07c1576fd179513dd69d5fb52af28af7687684",
+    "2": "5497f3a9e4ac237a11b09200a1abb17868bbd8b5ca50c63ea21d87ebe4d44128",
+    "3": "097fc6dd0a5ad5ac3ecc46dbe1db3a78c380b1c2e2a0b5ec40421e83b5abb6f9",
+    "4": "3439dce85f5041bd9075aa09fca775326e9f7ac2a5d9eea8f8c8b5a1e1aa0ada"
+  },
+  "upper_proof_sha256": "78283427e98bf10da65fed857a87b1fdd9db31812eac2d4f0aa375854053d48f",
+  "upper_certificate_sha256": "2e0beb78e67adec883d4a5bb9e5feab063958976b3b1253f7c7739db851e84f3",
+  "upper_kit_sha256": "b462d76bb9b7f41704246017a15b62a6f7f5f5fafd8cebfb36d3689b5fcdd4ab",
+  "prior_report_preserved_and_hashes_match": true,
+  "graph_edges_enumerated": false,
+  "independent_human_review": false,
+  "mentor_feedback_last_confirmed_absent": "2026-10-19",
+  "submitted": false,
+  "build_source_sha256": "0d6856d4552cdafde7619ea477c348fb28af6b6a5ea28839609cd605f1a0d850",
+  "focus_selected_by_user": "2026-10-22",
+  "temporary_outputs": "All compiler auxiliaries and rendered pages remained in the system local temporary directory outside W and Drive."
+}

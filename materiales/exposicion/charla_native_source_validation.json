@@ -1,0 +1,62 @@
+{
+  "artifactRef": "artifact_HY7aNlQL_1n7Hw_dMGGdRWEk0oBJmy84",
+  "stateVersion": 6,
+  "source_archive": "charla-minimos-locales-estado6.zip",
+  "archive_bytes": 4682638,
+  "archive_sha256": "427c29247dd98b5ca72f42071b669b6e1361160bb165fa173d4f3f85d481e1da",
+  "member": "charla-minimos-locales-estado6.json",
+  "uncompressed_bytes": 16149251,
+  "uncompressed_sha256": "87da1fdcd31be682fcbf5e76468673541ec9ee6efc95b8bf6e1b315369aab1a3",
+  "public_native_presentation_source_only": true,
+  "chat_or_tool_records_included": false,
+  "byte_identical_source_archive_roundtrip": true,
+  "live_validation": {
+    "slides": 15,
+    "targetSeconds": 900,
+    "allBodyTextMatches": true,
+    "allSpeakerNotesMatch": true,
+    "allNativeTableValuesMatch": true,
+    "allSlideIDsPreserved": true,
+    "allElementIDsPreserved": true,
+    "outOfCanvasObjects": [],
+    "nativeTableSlides": [
+      3,
+      6,
+      10,
+      12
+    ],
+    "nativeChartSlides": [
+      4
+    ],
+    "originalChartProtoUnchanged": true,
+    "originalImageProtoUnchanged": true,
+    "coverageCountsMatch": true,
+    "nativeChartValues": {
+      "A": [
+        1,
+        0
+      ],
+      "B": [
+        0,
+        1
+      ],
+      "C": [
+        -1,
+        0
+      ],
+      "W": [
+        0,
+        -1
+      ]
+    }
+  },
+  "no_slide_mutation": true,
+  "live_visual_review_reference": "charla_minimos_locales_validation.json",
+  "live_visual_review_reference_sha256": "aecfc10044d1ac355f33ddc7a2289bcd243e9316ebabcac78593cef65990e1a8",
+  "pptx_exported": false,
+  "pdf_exported": false,
+  "powerpoint_opened": false,
+  "independent_human_review": false,
+  "submitted": false,
+  "scope": "Native source preservation for the live review deck. Requires the presentation runtime; not a PowerPoint export or cross-application validation."
+}

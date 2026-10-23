@@ -1,0 +1,43 @@
+{
+  "all_assertions_passed": true,
+  "sympy": "1.14.0",
+  "modal_cross_block": [
+    [
+      "-kB*(-f*g + x)",
+      "f*g*kA - 2*g**2*kB + g*h*kC + 2*g*kB - kA*x - kC*y",
+      "-kB*(-g*h + y)"
+    ],
+    [
+      "2*f**2*kA - f*g*kB - 2*f*kA + kB*x",
+      "-f*g*kA + g*h*kC + kA*x - kC*y",
+      "g*h*kB - 2*h**2*kC + 2*h*kC - kB*y"
+    ],
+    [
+      "-kB*(-f*g + x)",
+      "f*g*kA - g*h*kC - kA*x + kC*y",
+      "kB*(-g*h + y)"
+    ]
+  ],
+  "weighted_squared_form": [
+    [
+      "A**2*(4 - 4*alpha) + K**2",
+      "-2*K*(A*(1 - alpha) + B*alpha)",
+      "K*L*(2*alpha - 1)"
+    ],
+    [
+      "-2*K*(A*(1 - alpha) + B*alpha)",
+      "4*B**2*alpha + K**2 + L**2",
+      "-2*L*(B*alpha + D*(1 - alpha))"
+    ],
+    [
+      "K*L*(2*alpha - 1)",
+      "-2*L*(B*alpha + D*(1 - alpha))",
+      "D**2*(4 - 4*alpha) + L**2"
+    ]
+  ],
+  "transport_bound": "abs(kappa)+sqrt(chi_left*chi_right)<=1",
+  "sylvester_minor_polynomials_verified": true,
+  "internal_completion_monotonicity_identity_verified": true,
+  "source_sha256": "8964308bc4839b5b9ef868d087f38a470dbed1c6720e27baaad156c0d46bfe06",
+  "scope": "Algebraic identities. Inequalities and continuous-profile reduction are proved in cota_perfil_general.md. Not a universal Kuramoto bound or independent human review."
+}

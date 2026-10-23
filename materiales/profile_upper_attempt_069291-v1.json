@@ -1,0 +1,19 @@
+{
+  "complete": false,
+  "counts": {
+    "boxes": 1094,
+    "splits": 558,
+    "capacity": 0,
+    "mass_flow_upper": 0,
+    "mass_flow_sum": 5,
+    "whole_mass_projection": 394,
+    "aggregate_cut": 46,
+    "central_mass_projection": 0,
+    "variance_scale": 0,
+    "matrix": 75,
+    "bernstein_matrix": 15
+  },
+  "elapsed": 157.0470000000205,
+  "error": "('budget', {'boxes': 1094, 'splits': 558, 'capacity': 0, 'mass_flow_upper': 0, 'mass_flow_sum': 5, 'whole_mass_projection': 394, 'aggregate_cut': 46, 'central_mass_projection': 0, 'variance_scale': 0, 'matrix': 75, 'bernstein_matrix': 15}, 81, [(Fraction(2084682551248399, 2484736387710976), Fraction(497027056, 592407319)), (Fraction(2009853546448399, 2484736387710976), Fraction(479186431, 592407319)), (Fraction(25537213438357, 30301663264768), Fraction(2094051519785899, 2484736387710976))])",
+  "target": "69291/100000"
+}

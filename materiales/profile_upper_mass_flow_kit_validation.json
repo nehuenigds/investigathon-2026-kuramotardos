@@ -1,0 +1,66 @@
+{
+  "archive": "kit-cota-flujos-06934-v1.zip",
+  "bytes": 167679,
+  "sha256": "b462d76bb9b7f41704246017a15b62a6f7f5f5fafd8cebfb36d3689b5fcdd4ab",
+  "members": 35,
+  "all_passed": true,
+  "payload_unchanged": true,
+  "isolated_runs": [
+    {
+      "command": "verify_profile_upper_mass_flow.py",
+      "standard_library_only": true,
+      "exit_code": 0,
+      "seconds": 48.84400000000005,
+      "stdout": "{\"covered_root_exactly\": true, \"all_leaves_verified\": true, \"target\": \"3467/5000\", \"counts\": {\"boxes\": 15511, \"splits\": 7755, \"capacity\": 88, \"mass_flow_upper\": 0, \"mass_flow_sum\": 57, \"whole_mass_projection\": 1858, \"aggregate_cut\": 1739, \"central_mass_projection\": 0, \"variance_scale\": 0, \"matrix\": 2362, \"bernstein_matrix\": 1652}, \"max_depth\": 42, \"minimum_row_margin\": \"60753273245837217514765697/261612187252500000000000000000000\", \"certificate_sha256\": \"2e0beb78e67adec883d4a5bb9e5feab063958976b3b1253f7c7739db851e84f3\", \"verifier_sha256\": \"e0d11a9bf28cb903df55d40946e77aa8820aab176ce2cc00e26f2f05b8cd880b\", \"scope\": \"Exact replay of covering and rational leaf inequalities. The written reduction is required; not an upper bound on all Kuramoto graphs or independent human review.\"}\n",
+      "stderr": ""
+    },
+    {
+      "command": "profile_upper_mass_flow_checks.py",
+      "standard_library_only": true,
+      "exit_code": 0,
+      "seconds": 46.29699999999957,
+      "stdout": "{\"all_controls_passed\": true, \"corruptions_rejected\": 6, \"strict_finite_examples_retained\": 3, \"gap_below\": 0.000493}\n",
+      "stderr": ""
+    },
+    {
+      "command": "mass_flow_lemma_checks.py",
+      "standard_library_only": true,
+      "exit_code": 0,
+      "seconds": 0.3280000000004293,
+      "stdout": "{\"all_passed\": true, \"strict_finite_examples\": 4, \"inequalities_checked\": 24}\n",
+      "stderr": ""
+    },
+    {
+      "command": "verify_covariance_reduction.py",
+      "standard_library_only": false,
+      "exit_code": 0,
+      "seconds": 4.921999999999571,
+      "stdout": "{\"all_assertions_passed\": true, \"transport_identity\": true, \"three_normalized_tests\": true, \"weighted_form\": true}\n",
+      "stderr": ""
+    },
+    {
+      "command": "verify_global_optimum.py",
+      "standard_library_only": false,
+      "exit_code": 0,
+      "seconds": 9.375,
+      "stdout": "Algebraic root isolated exactly.\nDegree and phase-ratio bounds verified.\nr_ge_1 resultant sign verified.\nr_le_1 resultant sign verified.\n{\n  \"all_assertions_passed\": true,\n  \"connectivity\": {\n    \"lo\": \"3555430862015759673094193677857596640857897985/5131175233486791785357965605030126019173821318\",\n    \"hi\": \"7110861724031519346188387355715193281715795972/10262350466973583570715931210060252038347642635\",\n    \"lo_approx\": 0.6929077063695863,\n    \"hi_approx\": 0.6929077063695863\n  },\n  \"bernstein_degrees\": {\n    \"r_ge_1\": 11,\n    \"r_le_1\": 15\n  },\n  \"bernstein_min_lower_approx\": {\n    \"r_ge_1\": 194534858.00123996,\n    \"r_le_1\": 44930.96463825693\n  }\n}\n",
+      "stderr": ""
+    }
+  ],
+  "previous_artifacts_unchanged": {
+    "kit-cota-capacidades-06935-v1.zip": "86cab1e74e64a8d4adbff0df960477b763f7c3489888f94fa07f45f4411c7e63",
+    "kit-flujos-por-masa-v1.zip": "ec57da9ceac46c7db7ac372e0f54db172195ecb8a65c160458a90551c58962c7",
+    "kit-cota-perfil-070-v1.zip": "d55bd7b8f82bf06b2bcedb7c37a13455729aed0540134def21e6c3c63a103a20",
+    "informe/output/pdf/informe-perfil-v1.pdf": "4c19aa77c090fd0b7bb2e6ebb6006802ea6dcfdf0d06062a3b2249a8d2b14df9",
+    "exposicion/output/charla-kuramoto-v12.pptx": "c65f4f624b536d910d9d3618d14dc9cd8c219444663256d406a1134383365669"
+  },
+  "temporary_location": "System local temporary directory outside W and Drive, resolved in PowerShell.",
+  "python": "C:\\Users\\nehue\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe",
+  "symbolic_dependencies": "Existing external library cache via PYTHONPATH; no fresh installation tested.",
+  "search_reexecuted": false,
+  "builder_reexecuted": false,
+  "media_rebuilt": false,
+  "independent_human_review": false,
+  "submitted": false,
+  "builder_sha256": "7112d6f5a67353ff14cc4a50640488c2a41dd526b4470c1ba140a9fa480ddacd"
+}

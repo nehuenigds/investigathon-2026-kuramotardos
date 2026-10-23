@@ -1,0 +1,90 @@
+{
+  "source_sha256": "0dd644ab4797535a5855455ceec70fe909b7213dda4b9eb4b2d63ead9e4ef88e",
+  "pdf_sha256": "94e3bb90e0c85515a5a43a6d11688031f11f01bdff36ab45396a08774b7108c9",
+  "pages": 1,
+  "size_mm": [
+    841.0010555555556,
+    594.0001666666666
+  ],
+  "team_name": "Los Kuramotardos",
+  "affiliation_supplied": false,
+  "compiler_runs": [
+    {
+      "pass": 1,
+      "exit_code": 0,
+      "seconds": 3.360000000000582
+    },
+    {
+      "pass": 2,
+      "exit_code": 0,
+      "seconds": 3.2340000000003783
+    }
+  ],
+  "column_heights_pt": [
+    [
+      "A",
+      "898.60919"
+    ],
+    [
+      "B",
+      "1026.33372"
+    ],
+    [
+      "C",
+      "1000.95628"
+    ]
+  ],
+  "overfull_boxes": false,
+  "unresolved_references": false,
+  "candidate_path": "C:\\Users\\nehue\\AppData\\Local\\Temp\\kuramoto-poster-a5539e53aa4c430d8f687319e4098796\\poster\\main.pdf",
+  "render_path": "C:\\Users\\nehue\\AppData\\Local\\Temp\\kuramoto-poster-a5539e53aa4c430d8f687319e4098796\\poster\\poster.png",
+  "render_sha256": "fda7b659f722d6d2c8f70369f93e5402ba22ea9bdd1b031ee6c71fc60daf21c7",
+  "visual_review": {
+    "completed": true,
+    "reviewer": "Codex; same agent, not independent human review",
+    "full_page": true,
+    "three_column_crops": true,
+    "footer_crop": true,
+    "no_overlap_or_clipping_observed": true
+  },
+  "human_mathematical_review": false,
+  "novelty_verified": false,
+  "submitted": false,
+  "glyph_bounds_pt": {
+    "x0": 62.361999999999625,
+    "x1": 2321.5790633999995,
+    "top": 58.78119300000003,
+    "bottom": 1625.39209
+  },
+  "minimum_glyph_margin_mm": 20.59795713888886,
+  "font_warnings": false,
+  "reviewed_render_sha256": {
+    "poster": "fda7b659f722d6d2c8f70369f93e5402ba22ea9bdd1b031ee6c71fc60daf21c7",
+    "column-a": "f78c98fd9b8e9ed6562421f4abe6a0ab31ee0238facf9930f5dc4fb16196cf6e",
+    "column-b": "70500fc057686e41aee501201c134203af61149e6756c4b5ba3bc1046258e98f",
+    "column-c": "6a450689519ac06951dbcfe661aacbd0f1f248558baaa08f7c9828bbee94e1bd",
+    "footer": "f46f164fa53f5b18438f6589459696c6fd9624fa7fdde36be168b3ced83b2111"
+  },
+  "compiler_log_sha256": "6c2b3a2117fe7111256e6145d647434b74e466617a1bf3e07f61cd42e8091be5",
+  "final_pdf": "exposicion/poster/output/pdf/poster-kuramoto.pdf",
+  "final_source": "exposicion/poster/main.tex",
+  "all_local_checks_passed": true,
+  "previous_version_preserved": true,
+  "proof_binding": {
+    "certificate_sha256": "2e0beb78e67adec883d4a5bb9e5feab063958976b3b1253f7c7739db851e84f3",
+    "target": "3467/5000",
+    "nodes": 15511,
+    "leaf_counts": {
+      "capacity": 88,
+      "matrix": 2362,
+      "mass_flow_sum": 57,
+      "whole_mass_projection": 1858,
+      "aggregate_cut": 1739,
+      "bernstein_matrix": 1652
+    },
+    "leaves": 7756,
+    "prior_independent_code_replay_passed": true,
+    "new_mathematical_proof_claimed": false
+  },
+  "scope": "Layout and consistency of the selected asymptotic poster; not human mathematical review or proof of novelty."
+}

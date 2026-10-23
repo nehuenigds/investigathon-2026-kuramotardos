@@ -1,0 +1,152 @@
+{
+  "slides": 15,
+  "targetSeconds": 900,
+  "allBodyTextMatches": true,
+  "allSpeakerNotesMatch": true,
+  "allNativeTableValuesMatch": true,
+  "allSlideIDsPreserved": true,
+  "allElementIDsPreserved": true,
+  "outOfCanvasObjects": [],
+  "nativeTableSlides": [
+    3,
+    6,
+    10,
+    12
+  ],
+  "nativeChartSlides": [
+    4
+  ],
+  "originalChartProtoUnchanged": true,
+  "originalImageProtoUnchanged": true,
+  "coverageCountsMatch": true,
+  "nativeChartValues": {
+    "A": [
+      1,
+      0
+    ],
+    "B": [
+      0,
+      1
+    ],
+    "C": [
+      -1,
+      0
+    ],
+    "W": [
+      0,
+      -1
+    ]
+  },
+  "artifactRef": "artifact_HY7aNlQL_1n7Hw_dMGGdRWEk0oBJmy84",
+  "stateVersion": 6,
+  "visualReview": "All 15 final slides inspected individually. Slides 8 and 9 inspected again after wording clarification. No clipping, overlap or missing glyphs observed.",
+  "rehearsed": false,
+  "speakerCount": null,
+  "independentHumanReview": false,
+  "noveltyVerified": false,
+  "pptxExported": false,
+  "powerpointOpened": false,
+  "submitted": false,
+  "fontFamily": "Arial",
+  "slideSizePx": [
+    1280,
+    720
+  ],
+  "referenceStateVersion": 4,
+  "status": "Expanded live review draft. Written proof, independent mathematical review and rehearsal remain necessary.",
+  "previousNativeSource": {
+    "archive": "charla-asintotica-estado4.zip",
+    "member": "charla-asintotica-estado4.json",
+    "uncompressed_sha256": "9a0e1b7fdd3c63592142eec9d3c9bd74b3472bca4f19314c46e17a4757430c09",
+    "archive_sha256": "8b64063dead7c69b6910673e045fd3a50b2b4dafbe61ace04c5f8b6c56f4a7e4",
+    "archive_bytes": 4682632
+  },
+  "source_sha256": {
+    "charla-minimos-locales-v2.json": "4d462a5a43cab826c3365895488e91e66f78642c6cd2a2dd2af75a6f67ffedaf",
+    "populate_local_minima_deck.mjs": "bca2bc011c802e5fe699e66d3ee00c7c3c2fd4cf12f67b6bec16cc213532e486",
+    "validate_local_minima_talk.mjs": "5db992c57e2aa868c1613a5d4e914e04e91a5e9d2204bb26bc2298b3ba33225c",
+    "guion-15-minutos-minimos-locales-v2.md": "8fd4313ad42295da6b96b82d928ecaab5e207a996fc2f8ec00ed689ca551e8bc",
+    "charla-asintotica-estado4.zip": "8b64063dead7c69b6910673e045fd3a50b2b4dafbe61ace04c5f8b6c56f4a7e4",
+    "assets/portada-conceptual.png": "7a08a62a4c2badff08eca1e5eceb6a0c10b6ef6640817e38f9d97c503c365da3"
+  },
+  "render_sha256": {
+    "1": "692977eb099d1a8599e62b02121a067cd81b9de8e2d242a1b260d8e2fc3b7da5",
+    "2": "b987f5086f70574c6caa341a21f8d1dea113bed564b6bb5b31364f991ced90b1",
+    "3": "95f4c47dd4889503956f8da246c385af6578185411eba01b7b91bf77bbb1457d",
+    "4": "27759d7e995190061727797c138661443be06ae7d77f25d184df2f8b1b4e5071",
+    "5": "b379b1af8151b256e9bfb785d49efd648c8647c8d0bc8a92cb2dea1d3794985b",
+    "6": "60505e73579bb710d3a465e4c5e85a4f0a15eecd5f220405cef7ad52b5bb7356",
+    "7": "e49da5c8025a388ce4ef712bc31c04cbef5616c756ac310c988f8cda49141447",
+    "8": "47e477e8be5d7ef1c974941b9b7a7c61331f01235aeb1d3f7fa278f632f834c3",
+    "9": "8c4ffbd8f08fdd1d84060750038bc17fc3a455458052f3494cb45d48c9fe27d8",
+    "10": "43c184552b3fe5658b49401ad6249ff4aea15d4e51d2f787182e3702b4589c97",
+    "11": "a93892269ee116f2aae09910add52cfe36c4f06db7373a7b3c815e4410765a02",
+    "12": "6c9b951bd14890f10a81aabe9a7fa37eb5057e91d455343316559b03a076c930",
+    "13": "2afef8c363e8d4ce53c14cf28d427619ca4b5d49559586d79d79eff7ed52ccc1",
+    "14": "02712691a89e5ac96c6f280528dc2c64565c4c22b4ed3a4b0c81276df0909c1b",
+    "15": "a4711282888b851152902691a989988d856c52a139631411ab57c0e664f4053d"
+  },
+  "layout_sha256": {
+    "1": "04513179e850dc08f69de152ede49ab34211fa51c69f86142b5b90125c202241",
+    "2": "cb8bbeee769906867d136a5e424c8f318710c7b2e720490863f9c0d006fb0c5d",
+    "3": "05955bd8ff3e23edde935a34520e702e9bb8e93443ddaad758d37e27c6c01b06",
+    "4": "a9ffe4f01e6762c611c0b01c9bae8404fd802570940ee130daa1e6937e059070",
+    "5": "0808d6ef7465f06fd396668c4d13836907a259da79c62c252b200441dec744c5",
+    "6": "0f8293f915acbfb0fe7e1b41a8eb37ade2863c9c67e54eb47edb22e43740a004",
+    "7": "32e27b5deb5462ba2e7e79a2b6314dab1369741a719187b7b235b38591ef0c7d",
+    "8": "39d763659831f283b5187adc750e61834c3ffe46347e2f352727eaefaedcf50d",
+    "9": "c6a547d09ed53abb7c88ec130874635353ca4105a74c02592aae78814153da76",
+    "10": "651715d00c389bb37bc16bae3b4690efd5cf342abe4936e8e4891a7a7373e458",
+    "11": "0eb12190fe6b0e74d156be5d506a49de56bceb48a875842e46063f9532ed7f4e",
+    "12": "0cab511f46e212fb4cf1d55f3c0a331edc3a0dbbf3962b8242f3400fa9823894",
+    "13": "85bb4bf42f599cc4dd222bec3ea768464b68932b92ff4c89c1dc8119712afc4c",
+    "14": "81609664f8e45b673efd06c1a77404e61c2e9a98f322f7a95b1e5cc873dfa5f0",
+    "15": "f3300d6cb193ce6c28385951e541afd4be06859e4023dbce5597bffdd6f02adf"
+  },
+  "spoken_words_by_slide": [
+    72,
+    96,
+    82,
+    86,
+    97,
+    96,
+    97,
+    119,
+    140,
+    101,
+    113,
+    112,
+    104,
+    99,
+    80
+  ],
+  "spoken_words": 1494,
+  "target_seconds_by_slide": [
+    30,
+    55,
+    55,
+    45,
+    50,
+    65,
+    55,
+    85,
+    80,
+    65,
+    70,
+    80,
+    60,
+    60,
+    45
+  ],
+  "target_max_words_per_minute": 144.0,
+  "mathematical_source_sha256": {
+    "cota_minimos_locales_06934.md": "e08bfcca44a7fd88fcb3514f9cfd4e9ea277de8a4c8c488e3e3d03a1db0c21ac",
+    "auditoria_paso_variacional.md": "e86f918dfe9e8321caf46d6d53aa60ff5c7f20701465b79819ac2cb0f06d7852",
+    "auditoria_flujos_centros.md": "8312518188941548fed092ddc864f161fe0a5ada99e84bd08de0079cda7205c0",
+    "profile_upper_certificate_06934-v1.json": "2e0beb78e67adec883d4a5bb9e5feab063958976b3b1253f7c7739db851e84f3",
+    "expanded_team_package_validation.json": "7a0f45654b8d900528818924a54c2653c383b03bf6f770956b8929444a4aaa38"
+  },
+  "finalStateAllSlidesRendered": 6,
+  "finalRenderComparedToInspectedImages": true,
+  "finalRenderDifferences": []
+}
