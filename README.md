@@ -35,6 +35,12 @@ y mpmath; no se incluyen bibliotecas. La reproducción previa de doce órdenes
 matemáticas y sus límites están registrados en los recibos conservados. Preparar
 este repositorio no constituye una nueva ejecución de esas doce órdenes.
 
+GitHub ejecuta esta misma comprobación automáticamente en cada subida y
+solicitud de cambio; también puede iniciarse desde la pestaña Actions. El control
+se llama «Integridad de la entrega» y comprueba archivos y manifiestos. No repite
+las doce órdenes matemáticas ni acredita revisión humana, novedad o entrega al
+jurado. La configuración conserva los bytes de los archivos entre sistemas.
+
 Las carpetas preservan los materiales congelados y sus manifiestos. Si se editan,
 la comprobación detectará esas diferencias hasta actualizar la selección. Los
 temporales, vistas, cachés y auxiliares deben quedar fuera del baúl y de Drive;

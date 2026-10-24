@@ -7,13 +7,21 @@
   "unique_visible_messages": 237,
   "remote_configured": true,
   "files": {
+    ".gitattributes": {
+      "bytes": 62,
+      "sha256": "76be4fd7c3f505b5051bf43dfe3b244aa01f6adaa663892d549e3b03d6a449e0"
+    },
+    ".github/workflows/validar-entrega.yml": {
+      "bytes": 695,
+      "sha256": "69895c97895f08acec08466a0b4308700f1b165dc5f1da29b4a88e421b5c43c6"
+    },
     ".gitignore": {
       "bytes": 82,
       "sha256": "d0b9a10259d91739ddb92583fe46de66d0b43bddc13f6a0c5870f35f187d581c"
     },
     "README.md": {
-      "bytes": 3647,
-      "sha256": "7a28a2f8c9dd41759f921da19958f0da77af7e9fc886a199a2e0f1e53dd156e8"
+      "bytes": 4049,
+      "sha256": "524b667c5ff8fbea86b933fe832b25d68c9e7d6b532da230e7594477caa7d06c"
     },
     "materiales/Bitácora.md": {
       "bytes": 144686,
