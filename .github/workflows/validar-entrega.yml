@@ -26,3 +26,29 @@ jobs:
           python-version: "3.12"
       - name: Verificar archivos y manifiestos
         run: python -B -S verificar_entrega.py
+
+  certificado:
+    name: Certificado racional 0,6934
+    needs: integridad
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      PYTHONDONTWRITEBYTECODE: "1"
+    steps:
+      - name: Descargar la seleccion
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - name: Preparar Python
+        uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: "3.12"
+      - name: Reproducir el arbol y sus controles exactos
+        shell: bash
+        run: |
+          verification_dir="$(mktemp -d)"
+          cp -a materiales/. "$verification_dir/"
+          cd "$verification_dir"
+          python -B -S verify_profile_upper_mass_flow.py
+          python -B -S profile_upper_mass_flow_checks.py
+          python -B -S mass_flow_lemma_checks.py

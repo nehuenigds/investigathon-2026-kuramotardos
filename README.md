@@ -37,9 +37,13 @@ este repositorio no constituye una nueva ejecución de esas doce órdenes.
 
 GitHub ejecuta esta misma comprobación automáticamente en cada subida y
 solicitud de cambio; también puede iniciarse desde la pestaña Actions. El control
-se llama «Integridad de la entrega» y comprueba archivos y manifiestos. No repite
-las doce órdenes matemáticas ni acredita revisión humana, novedad o entrega al
-jurado. La configuración conserva los bytes de los archivos entre sistemas.
+se llama «Integridad de la entrega». Tras comprobar archivos y manifiestos,
+reproduce el árbol racional de 0,6934, sus seis controles de corrupción, los tres
+testigos finitos conservados y las 24 desigualdades del lema de flujos. Esas tres
+órdenes usan Python estándar y escriben sus salidas en una copia temporal.
+No ejecuta las otras nueve órdenes matemáticas ni acredita por sí solo la
+reducción analítica, revisión humana, novedad o entrega al jurado. La configuración
+conserva los bytes de los archivos entre sistemas.
 
 Las carpetas preservan los materiales congelados y sus manifiestos. Si se editan,
 la comprobación detectará esas diferencias hasta actualizar la selección. Los
